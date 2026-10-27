@@ -1,64 +1,22 @@
+/* Pilot Path chapter pages: coordinated safe-area layout */
+:root{--bg:#061321!important;--text:#f5f9ff!important;--muted:#a4b9cf!important;--line:#293b51!important;--accent:#55b1ff!important;--glass:#112238!important}
+html{-webkit-text-size-adjust:100%}body{background:#061321!important;color:#f5f9ff!important;margin:0!important}
+.course-switch{position:relative!important;top:auto!important;left:auto!important;right:auto!important;display:flex!important;align-items:center!important;justify-content:space-between!important;width:100%!important;max-width:580px!important;height:auto!important;min-height:0!important;margin:0 auto!important;padding:calc(env(safe-area-inset-top,0px) + 18px) 16px 14px!important;background:#061321!important;border:0!important;border-radius:0!important;box-shadow:none!important;z-index:10!important}
+.course-switch a{display:inline-flex!important;align-items:center!important;font-size:13px!important;color:#a4d6ff!important;min-height:39px!important;padding:0!important;border:0!important;background:none!important;text-decoration:none!important;white-space:nowrap!important}.course-switch span{font-size:10px!important;letter-spacing:.8px!important;color:#89a5bf!important;text-align:right!important}
+#app{width:100%!important;max-width:580px!important;min-height:100dvh!important;margin:0 auto!important;padding:4px 16px calc(108px + env(safe-area-inset-bottom,0px))!important;border:0!important;border-radius:0!important}.top,#app .top{display:none!important}
+.headline{font-size:clamp(26px,6.5vw,32px)!important;line-height:1.16!important;letter-spacing:-.7px!important;margin:9px 0 14px!important}.eyebrow{color:#80c8ff!important;font-size:10px!important;letter-spacing:1.2px!important}.intro,.copy{line-height:1.65!important;font-size:14px!important;color:#c4d4e7!important}.section{font-size:18px!important;margin:24px 0 12px!important}.hero{border:1px solid #2c435b!important;background:linear-gradient(145deg,#153351,#102036)!important;padding:18px!important;border-radius:17px!important}.hero h2{font-size:23px!important}
+.glass,.tile,.lesson{border:1px solid #293d54!important;background:#102237!important;border-radius:15px!important;box-shadow:none!important;backdrop-filter:none!important;-webkit-backdrop-filter:none!important}.glass{padding:16px!important;margin:12px 0!important}.lesson{display:flex!important;align-items:center!important;gap:12px!important;margin:9px 0!important;padding:11px!important;min-height:77px!important}.lesson img{width:65px!important;height:60px!important;object-fit:cover!important;border-radius:11px!important;flex-shrink:0!important}.lesson .detail{flex:1!important;min-width:0!important}.lesson .detail strong{font-size:14px!important;line-height:1.35!important}.lesson .detail small{font-size:11px!important;line-height:1.35!important}.title{font-size:21px!important;line-height:1.32!important}.artbutton{border-radius:13px!important;overflow:hidden!important;max-width:100%!important}.artbutton .art{width:100%!important;height:auto!important;object-fit:contain!important;max-height:none!important}.apply{border-radius:13px!important}.choice{border-radius:12px!important}.btn,.back,.choice{min-height:44px!important}
+.tabs{position:fixed!important;left:0!important;right:0!important;bottom:0!important;top:auto!important;transform:none!important;width:100%!important;max-width:none!important;display:grid!important;grid-template-columns:repeat(4,minmax(0,1fr))!important;padding:9px max(8px,env(safe-area-inset-right,0px)) calc(9px + env(safe-area-inset-bottom,0px)) max(8px,env(safe-area-inset-left,0px))!important;gap:0!important;margin:0!important;border:0!important;border-top:1px solid #263e57!important;border-radius:0!important;box-shadow:none!important;background:#071728f7!important;backdrop-filter:blur(14px)!important;z-index:50!important}.tabs button{display:flex!important;align-items:center!important;justify-content:center!important;flex-direction:column!important;gap:3px!important;padding:5px 0!important;min-height:46px!important;font-size:11px!important;color:#9dafc8!important}.tabs button.on{color:#62b9ff!important}.tabs .glyph{font-size:22px!important;line-height:1.1!important}.overlay .close{top:calc(env(safe-area-inset-top,0px) + 13px)!important}button,a{-webkit-tap-highlight-color:transparent;touch-action:manipulation}:focus-visible{outline:2px solid #8dd5ff;outline-offset:3px}
+@media(max-width:370px){#app{padding-left:12px!important;padding-right:12px!important}.course-switch{padding-left:12px!important;padding-right:12px!important}.lesson img{width:57px!important;height:57px!important}}@media(min-width:700px){.tabs{max-width:580px!important;left:50%!important;transform:translateX(-50%)!important}}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto!important}}
 
-/* iPhone status bar and Home Screen safe-area fix */
-html{scroll-padding-top:110px;-webkit-text-size-adjust:100%}
-body{overflow-x:hidden}
-.course-switch{position:relative!important;top:auto!important;z-index:20!important;max-width:540px!important;width:100%!important;margin:0 auto!important;padding:max(66px,calc(env(safe-area-inset-top,0px) + 18px)) 16px 12px!important;min-height:unset!important;display:flex!important;align-items:flex-end!important;justify-content:space-between!important;gap:10px!important;background:#08111f!important;backdrop-filter:none!important;-webkit-backdrop-filter:none!important;box-sizing:border-box!important}
-.course-switch a{display:inline-flex!important;align-items:center!important;justify-content:center!important;min-height:46px!important;padding:10px 15px!important;border:1px solid #5587b0!important;border-radius:15px!important;background:#193c5e!important;color:#e8f6ff!important;font-weight:700!important;font-size:14px!important;white-space:nowrap!important;text-decoration:none!important}
-.course-switch span{align-self:center!important;min-width:0!important;font-weight:700!important;letter-spacing:.07em!important;font-size:10px!important;color:#a3c3dc!important;text-align:right!important}
-#app{padding-top:10px!important}
-/* Remove repeated brand header. The icon lives on the All Chapters landing page and Home Screen. */
-#app .top{display:none!important}
-/* Bottom tab bar above iPhone home indicator. */
-nav.bottom, .bottom-nav, .tabs, .tabbar, .bottom{bottom:max(16px,env(safe-area-inset-bottom,0px))!important}
-#app{padding-bottom:calc(116px + env(safe-area-inset-bottom,0px))!important}
-@media(max-width:350px){.course-switch{padding-left:12px!important;padding-right:12px!important}.course-switch a{padding-left:11px!important;padding-right:11px!important}.course-switch span{font-size:9px!important}}
-
-/* Pilot Path v6: iPhone-native docked chapter tab bar, not a floating capsule. */
-html,body{min-height:100%;}
-body{padding-bottom:0!important}
-#app{padding-bottom:calc(110px + env(safe-area-inset-bottom,0px))!important}
-#app .tabs, .tabs{
- position:fixed!important;left:0!important;right:0!important;bottom:0!important;
- transform:none!important;width:100%!important;max-width:none!important;
- border-radius:0!important;border-left:0!important;border-right:0!important;
- border-bottom:0!important;border-top:1px solid #3b5875!important;
- background:#0b1b2eeF!important;
- padding:9px max(10px,env(safe-area-inset-right,0px)) calc(8px + env(safe-area-inset-bottom,0px)) max(10px,env(safe-area-inset-left,0px))!important;
- box-shadow:0 -10px 26px #0004!important;
- display:grid!important;grid-template-columns:repeat(4,minmax(0,1fr))!important;
- z-index:100!important;
- -webkit-backdrop-filter:blur(24px);backdrop-filter:blur(24px);
-}
-.tabs button{min-height:50px!important;font-size:12px!important;justify-content:center!important;gap:3px!important;border-radius:12px!important;touch-action:manipulation}
-.tabs .glyph{font-size:23px!important;line-height:1.05!important}
-@media(min-width:750px){.tabs{max-width:750px!important;left:50%!important;right:auto!important;width:100%!important;transform:translateX(-50%)!important;border-left:1px solid #3b5875!important;border-right:1px solid #3b5875!important}}
-/* Prevent content from scrolling underneath translucent iPhone status bar in installed mode. */
-@media(display-mode:standalone){body::before{content:"";display:block;position:fixed;top:0;left:0;right:0;height:env(safe-area-inset-top,0px);background:#08111f;z-index:110;pointer-events:none}}
-
-/* Dark Focused Learning redesign: compact and content-first */
-:root{--bg:#071321;--muted:#9aaec6;--accent:#54b4ff;--glass:#13263b}
-body{background:linear-gradient(165deg,#0c2239,#071321 42%);}
-.course-switch{background:transparent!important;padding-top:max(70px,calc(env(safe-area-inset-top,0px) + 22px))!important;padding-bottom:6px!important;align-items:center!important;}
-.course-switch a{background:transparent!important;border:0!important;padding:9px 4px!important;min-height:40px!important;font-weight:650!important;color:#a9d5f7!important;}
-.course-switch span{color:#7f9cb8!important;font-weight:650!important;letter-spacing:.05em!important;}
-#app{max-width:540px!important;padding:6px 16px calc(105px + env(safe-area-inset-bottom))!important}
-#app .headline{font-size:clamp(24px,6vw,30px);line-height:1.16;margin:12px 0}
-#app .hero{background:#152a42;border:1px solid #29415c;border-radius:18px;padding:18px}
-#app .hero h2{font-size:22px}
-#app .glass,#app .tile,#app .lesson{background:#13263b;border:1px solid #293d55;border-radius:16px;backdrop-filter:none;-webkit-backdrop-filter:none;}
-#app .glass{padding:16px}
-#app .lesson{padding:10px;min-height:77px;gap:12px;margin:7px 0}
-#app .lesson img{width:64px;height:60px;object-fit:cover;border-radius:11px}
-#app .lesson .detail strong{font-size:14px;line-height:1.34}
-#app .lesson .detail small{font-size:11px;margin-top:5px}
-#app .section{font-size:16px;margin:20px 0 10px}
-#app .copy{font-size:15px;line-height:1.66;color:#dce7f6}
-#app .title{font-size:21px;line-height:1.3}
-#app .artbutton{border-radius:15px}
-#app .apply{border-radius:14px;background:#102d4a}
-#app .choice{border-radius:12px;background:#172c44}
-#app .tabs,.tabs{background:#09182af5!important;border-top:1px solid #273c55!important;box-shadow:none!important;}
-#app .tabs button,.tabs button{font-size:10px!important;color:#91a8c3!important}
-#app .tabs button.on,.tabs button.on{color:#5db9ff!important}
-#app .tabs .glyph,.tabs .glyph{font-size:22px!important}
-@media(min-width:600px){#app{border:0!important;border-radius:0!important;margin-top:0!important;min-height:100dvh!important}}
+/* iPhone Air: refined learning layout and consistent vector icons */
+html{background:#08111e!important}body{background:#08111e!important}
+.course-switch{padding-top:calc(env(safe-area-inset-top,0px) + 15px)!important;padding-bottom:12px!important;background:#08111e!important}
+#app{padding-bottom:calc(120px + env(safe-area-inset-bottom,0px))!important}
+.headline{font-weight:760!important;letter-spacing:-.8px!important}
+.glass,.tile,.lesson{background:#112237!important;border-color:#294159!important;border-radius:17px!important}
+.lesson{min-height:80px!important}.lesson .detail strong{letter-spacing:-.1px}
+.tabs{background:#091929f8!important;border-top:1px solid #29465f!important;padding-top:7px!important;padding-bottom:calc(7px + env(safe-area-inset-bottom,0px))!important}
+.tabs button{gap:5px!important;min-height:53px!important;font-size:11px!important;font-weight:550!important}.tabs button.on{color:#5ab9ff!important}
+.tabs .glyph{height:24px!important;display:flex!important;justify-content:center!important;align-items:center!important}.tabs .glyph svg{display:block;width:23px;height:23px}
+@media(max-width:390px){#app{padding-left:14px!important;padding-right:14px!important}.course-switch{padding-left:14px!important;padding-right:14px!important}.lesson{padding:10px!important;gap:10px!important}}

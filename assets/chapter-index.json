@@ -1,0 +1,138 @@
+[
+  {
+    "n": 1,
+    "title": "Introduction to Flying",
+    "key": "pilotpath-educational-ch1-v2",
+    "lessons": 18,
+    "concepts": 120,
+    "exams": 12
+  },
+  {
+    "n": 2,
+    "title": "Aeronautical Decision-Making",
+    "key": "pilotpath-educational-ch2-v1",
+    "lessons": 17,
+    "concepts": 89,
+    "exams": 8
+  },
+  {
+    "n": 3,
+    "title": "Aircraft Construction",
+    "key": "pilotpath-educational-ch3-v1",
+    "lessons": 18,
+    "concepts": 101,
+    "exams": 11
+  },
+  {
+    "n": 4,
+    "title": "Principles of Flight",
+    "key": "pilotpath-educational-ch4-v1",
+    "lessons": 13,
+    "concepts": 70,
+    "exams": 9
+  },
+  {
+    "n": 5,
+    "title": "Aerodynamics of Flight",
+    "key": "pilotpath-educational-ch5-v1",
+    "lessons": 23,
+    "concepts": 116,
+    "exams": 16
+  },
+  {
+    "n": 6,
+    "title": "Flight Controls",
+    "key": "pilotpath-educational-ch6-focused-v2",
+    "lessons": 16,
+    "concepts": 63,
+    "exams": 16
+  },
+  {
+    "n": 7,
+    "title": "Aircraft Systems",
+    "key": "pilotpath-educational-ch7-focused-v1",
+    "lessons": 19,
+    "concepts": 75,
+    "exams": 19
+  },
+  {
+    "n": 8,
+    "title": "Flight Instruments",
+    "key": "pilotpath-educational-ch8-focused-v1",
+    "lessons": 16,
+    "concepts": 71,
+    "exams": 16
+  },
+  {
+    "n": 9,
+    "title": "Flight Manuals and Other Documents",
+    "key": "pilotpath-educational-ch9-focused-v1",
+    "lessons": 17,
+    "concepts": 75,
+    "exams": 17
+  },
+  {
+    "n": 10,
+    "title": "Weight and Balance",
+    "key": "pilotpath-educational-ch10-focused-v1",
+    "lessons": 14,
+    "concepts": 70,
+    "exams": 14
+  },
+  {
+    "n": 11,
+    "title": "Aircraft Performance",
+    "key": "pilotpath-educational-ch11-focused-v1",
+    "lessons": 18,
+    "concepts": 97,
+    "exams": 18
+  },
+  {
+    "n": 12,
+    "title": "Weather Theory",
+    "key": "pilotpath-educational-ch12-focused-v1",
+    "lessons": 15,
+    "concepts": 76,
+    "exams": 15
+  },
+  {
+    "n": 13,
+    "title": "Aviation Weather Services",
+    "key": "pilotpath-educational-ch13-focused-v1",
+    "lessons": 14,
+    "concepts": 70,
+    "exams": 14
+  },
+  {
+    "n": 14,
+    "title": "Airport Operations",
+    "key": "pilotpath-educational-ch14-focused-v1",
+    "lessons": 16,
+    "concepts": 76,
+    "exams": 16
+  },
+  {
+    "n": 15,
+    "title": "Airspace",
+    "key": "pilotpath-educational-ch15-focused-v1",
+    "lessons": 14,
+    "concepts": 58,
+    "exams": 14
+  },
+  {
+    "n": 16,
+    "title": "Navigation",
+    "key": "pilotpath-educational-ch16-focused-v1",
+    "lessons": 16,
+    "concepts": 81,
+    "exams": 16
+  },
+  {
+    "n": 17,
+    "title": "Aeromedical Factors",
+    "key": "pilotpath-educational-ch17-focused-v1",
+    "lessons": 16,
+    "concepts": 72,
+    "exams": 16
+  }
+]
