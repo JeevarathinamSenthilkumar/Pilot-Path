@@ -1,0 +1,847 @@
+[
+  {
+    "id": 200,
+    "title": "What Aeronautical Decision-Making Means",
+    "category": "FAA Chapter 2 • 2-1–2-3",
+    "pages": "2-1–2-3",
+    "concepts": [
+      {
+        "title": "ADM is a deliberate process",
+        "explain": "Aeronautical decision-making (ADM) is a systematic way for pilots to choose a course of action using the current facts, available options, and likely consequences. It applies before and during flight.",
+        "apply": "Before departure, a forecast is not simply “good” or “bad”: interpret it in relation to your aircraft, experience, and alternatives.",
+        "image": null
+      },
+      {
+        "title": "Good judgment can be learned",
+        "explain": "The handbook describes structured ADM training as a way to recognize hazardous thinking, evaluate risk, and make better decisions. Skill develops through repeated practice and reflection.",
+        "apply": "A pilot who notices a repeated urge to rush can prepare an objective departure checklist.",
+        "image": null
+      },
+      {
+        "title": "Why short flight phases matter",
+        "explain": "Takeoff and landing demand many decisions in relatively little flight time. The handbook’s Figure 2-1 illustrates that accident exposure is not proportional to time spent in each phase.",
+        "apply": "Give departure and approach briefings the attention they deserve even on familiar routes.",
+        "image": {
+          "src": "assets/images/faa/figure-2-1.webp",
+          "caption": "FAA Pilot’s Handbook of Aeronautical Knowledge · Figure 2-1 (cropped to the relevant diagram)",
+          "official": true
+        }
+      },
+      {
+        "title": "The decision is never separate from the situation",
+        "explain": "Pilot condition, aircraft capability, weather, terrain, airspace, and time pressure interact. A choice that is reasonable today may not be reasonable tomorrow.",
+        "apply": "Flying the same route after a long workday in worsening weather is not the same decision as flying it while rested in clear conditions.",
+        "image": null
+      },
+      {
+        "title": "A change of plan can be the successful outcome",
+        "explain": "ADM aims for safe outcomes, not rigid compliance with an original plan. Diverting, delaying, or canceling can demonstrate strong judgment.",
+        "apply": "Arriving late by car may be better than launching into weather outside your limits.",
+        "image": null
+      }
+    ],
+    "check": null,
+    "cover": "assets/images/faa/figure-2-1.webp",
+    "section": 1
+  },
+  {
+    "id": 201,
+    "title": "The Decision-Making Cycle",
+    "category": "FAA Chapter 2 • 2-3–2-4",
+    "pages": "2-3–2-4",
+    "concepts": [
+      {
+        "title": "Recognize a developing problem",
+        "explain": "First detect conditions that depart from the plan: unexpected weather, abnormal indications, a passenger issue, or reduced fuel margin.",
+        "apply": "Notice a lowering cloud base early enough to turn around.",
+        "image": null
+      },
+      {
+        "title": "Interpret the information",
+        "explain": "Ask what the problem actually means. Distinguish a confirmed condition from an assumption. Use instruments, checklists, and available outside information.",
+        "apply": "One abnormal gauge reading is a cue to cross-check, not a reason to invent a diagnosis.",
+        "image": null
+      },
+      {
+        "title": "Consider workable alternatives",
+        "explain": "Generate and compare safe options. Include doing less, slowing down, asking ATC for help, landing elsewhere, or abandoning a plan.",
+        "apply": "If destination conditions worsen, compare diverting now versus holding or continuing.",
+        "image": null
+      },
+      {
+        "title": "Act—and check the result",
+        "explain": "Take a timely action, then evaluate whether the risk improved. ADM is continuous; new information can require another decision.",
+        "apply": "After diverting, re-check remaining fuel, weather, and terrain.",
+        "image": null
+      }
+    ],
+    "check": null,
+    "cover": null,
+    "section": 2
+  },
+  {
+    "id": 202,
+    "title": "Five Hazardous Attitudes",
+    "category": "FAA Chapter 2 • 2-4–2-5",
+    "pages": "2-4–2-5",
+    "concepts": [
+      {
+        "title": "Anti-authority: “Don’t tell me”",
+        "explain": "This attitude resists rules or advice simply because they come from authority. Antidote: “Follow the rules. They are usually right.”",
+        "apply": "A pilot does not disregard a clearance restriction merely because it seems inconvenient.",
+        "image": {
+          "src": "assets/images/faa/figure-2-4.webp",
+          "caption": "FAA Pilot’s Handbook of Aeronautical Knowledge · Figure 2-4 (cropped to the relevant diagram)",
+          "official": true
+        }
+      },
+      {
+        "title": "Impulsivity: “Do something—quickly”",
+        "explain": "An impulsive pilot acts before thinking through consequences. Antidote: “Not so fast. Think first.”",
+        "apply": "Pause to verify the correct procedure before changing fuel-tank settings.",
+        "image": null
+      },
+      {
+        "title": "Invulnerability: “It won’t happen to me”",
+        "explain": "This attitude assumes risks apply to other people. Antidote: “It could happen to me.”",
+        "apply": "Review personal minimums even after many uneventful flights.",
+        "image": null
+      },
+      {
+        "title": "Macho: “I can do it”",
+        "explain": "A pilot may accept needless risk to demonstrate ability. Antidote: “Taking chances is foolish.”",
+        "apply": "Decline a risky maneuver suggested by another pilot.",
+        "image": null
+      },
+      {
+        "title": "Resignation: “What’s the use?”",
+        "explain": "This attitude gives up control and responsibility. Antidote: “I’m not helpless. I can make a difference.”",
+        "apply": "Request assistance and select a reachable landing option rather than assuming nothing can be done.",
+        "image": null
+      },
+      {
+        "title": "Spot the attitude before it becomes an action",
+        "explain": "Hazardous attitudes are thought patterns, not permanent personality labels. Recognize their language and deliberately replace the thought with its antidote.",
+        "apply": "If you hear yourself say “I have to impress them,” identify macho thinking and reassess the flight.",
+        "image": null
+      }
+    ],
+    "check": {
+      "question": "A pilot says “Rules are for other pilots; they slow me down.” Which hazardous attitude is most evident?",
+      "options": [
+        "Invulnerability",
+        "Anti-authority",
+        "Resignation"
+      ],
+      "answer": 1,
+      "explanation": "Anti-authority resists rules or direction merely because they come from authority."
+    },
+    "cover": "assets/images/faa/figure-2-4.webp",
+    "section": 3
+  },
+  {
+    "id": 203,
+    "title": "Risk, Likelihood, and Severity",
+    "category": "FAA Chapter 2 • 2-5–2-7",
+    "pages": "2-5–2-7",
+    "concepts": [
+      {
+        "title": "A hazard is not the same as risk",
+        "explain": "A hazard is a condition with the potential to cause harm. Risk considers how likely an undesirable result is and how severe it could be.",
+        "apply": "A gusty crosswind is a hazard; the risk depends on its strength, runway, airplane, and pilot proficiency.",
+        "image": null
+      },
+      {
+        "title": "Estimate likelihood",
+        "explain": "Think about how readily a harmful event could occur under the actual circumstances, not just whether it is theoretically possible.",
+        "apply": "A forecast icing layer is more consequential when the route must enter cloud in freezing conditions.",
+        "image": null
+      },
+      {
+        "title": "Estimate severity",
+        "explain": "Consider what would happen if the hazard led to an unwanted event. Some unlikely events have catastrophic consequences.",
+        "apply": "Loss of control near terrain carries severe consequences even if it seems unlikely.",
+        "image": null
+      },
+      {
+        "title": "Interpret the FAA risk matrix",
+        "explain": "The handbook risk matrix plots likelihood against severity to help identify risks that should be avoided or reduced. It is a decision aid—not a guarantee or a universal numerical permission.",
+        "apply": "If a situation maps to high risk, seek a different plan rather than arguing about the square.",
+        "image": {
+          "src": "assets/images/faa/figure-2-5.webp",
+          "caption": "FAA Pilot’s Handbook of Aeronautical Knowledge · Figure 2-5 (cropped to the relevant diagram)",
+          "official": true
+        }
+      },
+      {
+        "title": "Mitigate before accepting risk",
+        "explain": "Controls can reduce exposure, likelihood, or consequences: training, a safer route, more fuel, better weather, or a different departure time.",
+        "apply": "A daytime route around rising terrain may reduce risk compared with a direct nighttime flight.",
+        "image": null
+      },
+      {
+        "title": "When controls are insufficient",
+        "explain": "Residual risk may remain unacceptable. Choosing not to fly is an available control.",
+        "apply": "A student pilot should not launch into conditions exceeding their training endorsement.",
+        "image": null
+      }
+    ],
+    "check": {
+      "question": "A hazard has a low likelihood but catastrophic potential consequences. What should you do?",
+      "options": [
+        "Ignore it because it is unlikely",
+        "Consider both likelihood and severity and seek risk controls",
+        "Assume a risk matrix makes it legal"
+      ],
+      "answer": 1,
+      "explanation": "Risk management considers both likelihood and severity, and the residual risk may be unacceptable."
+    },
+    "cover": "assets/images/faa/figure-2-5.webp",
+    "section": 4
+  },
+  {
+    "id": 204,
+    "title": "Structured Preflight Risk Assessments",
+    "category": "FAA Chapter 2 • 2-7–2-9",
+    "pages": "2-7–2-9",
+    "concepts": [
+      {
+        "title": "A checklist makes hidden risk visible",
+        "explain": "A structured assessment helps pilots consider factors they might overlook when excited, rushed, or familiar with the route.",
+        "apply": "Score the same categories consistently on every cross-country.",
+        "image": {
+          "src": "assets/images/faa/figure-2-6.webp",
+          "caption": "FAA Pilot’s Handbook of Aeronautical Knowledge · Figure 2-6 (cropped to the relevant diagram)",
+          "official": true
+        }
+      },
+      {
+        "title": "Risk factors are cumulative",
+        "explain": "Multiple moderate concerns can combine into an unacceptable situation: a fatigued pilot, marginal weather, and a time deadline.",
+        "apply": "A flight that is tolerable under one minor limitation may be unwise with three.",
+        "image": null
+      },
+      {
+        "title": "Scores do not replace judgment",
+        "explain": "A numeric worksheet organizes thinking but cannot account for every flight-specific hazard. The pilot still decides whether to launch.",
+        "apply": "Treat a low score as a starting point for review—not proof of safety.",
+        "image": null
+      },
+      {
+        "title": "Update the assessment",
+        "explain": "Reassess whenever conditions change. A preflight score is not a permanent clearance for the full flight.",
+        "apply": "The destination’s new weather report can invalidate the departure assessment.",
+        "image": null
+      },
+      {
+        "title": "Make mitigation explicit",
+        "explain": "When identifying a risk, write down the action that addresses it. “Be careful” is not a concrete control.",
+        "apply": "“Delay until the front has passed” is a measurable control.",
+        "image": null
+      }
+    ],
+    "check": null,
+    "cover": "assets/images/faa/figure-2-6.webp",
+    "section": 5
+  },
+  {
+    "id": 205,
+    "title": "PAVE: Pilot",
+    "category": "FAA Chapter 2 • 2-9–2-10",
+    "pages": "2-9–2-10",
+    "concepts": [
+      {
+        "title": "PAVE organizes risk into four areas",
+        "explain": "The FAA PAVE checklist covers Pilot, Aircraft, enVironment, and External pressures. It helps reveal vulnerabilities across the whole flight.",
+        "apply": "Use the same four headings during planning and when conditions change.",
+        "image": null
+      },
+      {
+        "title": "Personal proficiency is not just certification",
+        "explain": "Being legally qualified does not automatically make you proficient in demanding weather, complex systems, or unfamiliar airports.",
+        "apply": "A current instrument rating is not the same as recent real-weather proficiency.",
+        "image": null
+      },
+      {
+        "title": "The IMSAFE self-check",
+        "explain": "The pilot section includes Illness, Medication, Stress, Alcohol, Fatigue, and Emotion/Eating as a personal-fitness screening aid.",
+        "apply": "A fatigued pilot should change the plan even if weather is excellent.",
+        "image": null
+      },
+      {
+        "title": "Personal minimums",
+        "explain": "Set limits appropriate to your experience and current condition, and revisit them as your training and proficiency change.",
+        "apply": "Use a higher ceiling minimum for an unfamiliar cross-country than for a familiar local flight.",
+        "image": null
+      },
+      {
+        "title": "Crew or passenger effects",
+        "explain": "Passengers may be anxious, ill, or impatient; their needs and expectations can affect pilot decisions.",
+        "apply": "Discuss diversion and delay plans before departure.",
+        "image": null
+      }
+    ],
+    "check": {
+      "question": "You are legally current but fatigued and unfamiliar with today’s aircraft panel. Which PAVE area is immediately concerning?",
+      "options": [
+        "Pilot",
+        "Environment only",
+        "External pressures only"
+      ],
+      "answer": 0,
+      "explanation": "Pilot fitness and proficiency are central to the Pilot portion of PAVE."
+    },
+    "cover": null,
+    "section": 6
+  },
+  {
+    "id": 206,
+    "title": "PAVE: Aircraft",
+    "category": "FAA Chapter 2 • 2-9–2-10",
+    "pages": "2-9–2-10",
+    "concepts": [
+      {
+        "title": "Aircraft airworthiness and suitability",
+        "explain": "Check that the aircraft is legal, airworthy, equipped, and capable of the intended flight—not merely available.",
+        "apply": "A non-icing-approved aircraft cannot safely justify a route through forecast icing.",
+        "image": null
+      },
+      {
+        "title": "Performance, fuel, and reserves",
+        "explain": "Runway conditions, terrain, loading, fuel planning, and aircraft limitations can change the practical margin for error.",
+        "apply": "A high-density-altitude departure may make runway length the limiting factor.",
+        "image": null
+      },
+      {
+        "title": "System familiarity",
+        "explain": "A more advanced panel or a different engine arrangement can introduce additional workload.",
+        "apply": "Learn the installed navigation system before needing it in low visibility.",
+        "image": null
+      },
+      {
+        "title": "Automation does not change basic limits",
+        "explain": "Avionics assist navigation and information management but do not extend the aircraft’s structural, fuel, or weather capability.",
+        "apply": "A moving map does not make an unsafe route acceptable.",
+        "image": null
+      }
+    ],
+    "check": null,
+    "cover": null,
+    "section": 7
+  },
+  {
+    "id": 207,
+    "title": "PAVE: enVironment",
+    "category": "FAA Chapter 2 • 2-9–2-10",
+    "pages": "2-9–2-10",
+    "concepts": [
+      {
+        "title": "Weather",
+        "explain": "Review conditions along the route, at the destination, and at viable alternates. Include trends, wind, visibility, ceiling, and hazards.",
+        "apply": "A forecast airport ceiling may improve too late for the planned arrival.",
+        "image": null
+      },
+      {
+        "title": "Terrain and obstacles",
+        "explain": "Know terrain and obstruction clearances, especially in reduced visibility and high-density-altitude conditions.",
+        "apply": "A direct route across mountains may be less suitable than a valley route.",
+        "image": null
+      },
+      {
+        "title": "Airports and airspace",
+        "explain": "Check runway availability, approach facilities, communications, airspace restrictions, and other operational conditions.",
+        "apply": "A NOTAM can close the only suitable runway.",
+        "image": null
+      },
+      {
+        "title": "Day and night differences",
+        "explain": "Night changes visual references, terrain recognition, and the consequences of equipment or power problems.",
+        "apply": "Plan more conservative options when flying at night over remote terrain.",
+        "image": null
+      }
+    ],
+    "check": null,
+    "cover": null,
+    "section": 8
+  },
+  {
+    "id": 208,
+    "title": "PAVE: External Pressures",
+    "category": "FAA Chapter 2 • 2-9–2-10",
+    "pages": "2-9–2-10",
+    "concepts": [
+      {
+        "title": "Recognize “get-there-itis”",
+        "explain": "A meeting, hotel booking, return deadline, or passengers waiting can distort a pilot’s assessment of acceptable risk.",
+        "apply": "Ask whether you would launch if no one expected you to arrive today.",
+        "image": null
+      },
+      {
+        "title": "Have alternatives before departure",
+        "explain": "Consider extra time, refundable arrangements, ground transportation, and destinations with better weather.",
+        "apply": "Tell passengers in advance that weather may force an overnight stay.",
+        "image": null
+      },
+      {
+        "title": "Keep passengers informed",
+        "explain": "Transparent expectations reduce pressure and help other people accept a conservative safety decision.",
+        "apply": "Explain that a diversion is part of the plan, not an emergency or failure.",
+        "image": null
+      },
+      {
+        "title": "Resist sunk-cost thinking",
+        "explain": "Money, time, or effort already spent cannot make unsafe conditions safe.",
+        "apply": "A nonrefundable hotel cost is never a good reason to continue into hazardous weather.",
+        "image": null
+      }
+    ],
+    "check": {
+      "question": "Passengers expect to arrive tonight, but deteriorating weather threatens your limits. Which pressure is most important to notice?",
+      "options": [
+        "Aircraft category",
+        "External pressure",
+        "Runway surface"
+      ],
+      "answer": 1,
+      "explanation": "“Get-there-itis” and passenger expectations are external pressures."
+    },
+    "cover": null,
+    "section": 9
+  },
+  {
+    "id": 209,
+    "title": "Human Factors and Single-Pilot Risk",
+    "category": "FAA Chapter 2 • 2-11–2-13",
+    "pages": "2-11–2-13",
+    "concepts": [
+      {
+        "title": "Human factors affect performance",
+        "explain": "Attention, perception, memory, fatigue, physiological conditions, and stress can change how pilots interpret the same information.",
+        "apply": "Two pilots receiving the same weather report may notice different risks.",
+        "image": null
+      },
+      {
+        "title": "Single-pilot resource management (SRM)",
+        "explain": "SRM is the art and science of managing available resources before and during flight so one pilot can achieve a safe and successful outcome.",
+        "apply": "Use ATC, checklists, navigation tools, available passengers, and planning information appropriately.",
+        "image": null
+      },
+      {
+        "title": "Workload peaks matter",
+        "explain": "Task demand can increase suddenly during takeoff, approach, weather changes, equipment failures, or unfamiliar procedures.",
+        "apply": "Complete nonessential setup tasks before taxi.",
+        "image": null
+      },
+      {
+        "title": "Attention can narrow under pressure",
+        "explain": "Fixating on one problem can allow airspeed, altitude, fuel, or traffic awareness to deteriorate.",
+        "apply": "When a screen acts unexpectedly, fly the airplane first rather than staring at the menu.",
+        "image": null
+      },
+      {
+        "title": "Take advantage of help",
+        "explain": "Requesting ATC help and using suitable automation can free attention for flight control and decision-making.",
+        "apply": "Tell ATC you need vectors while working through a problem.",
+        "image": null
+      }
+    ],
+    "check": null,
+    "cover": null,
+    "section": 10
+  },
+  {
+    "id": 210,
+    "title": "The 5 Ps: Five Checkpoints",
+    "category": "FAA Chapter 2 • 2-13–2-15",
+    "pages": "2-13–2-15",
+    "concepts": [
+      {
+        "title": "Plan",
+        "explain": "Review the mission, flight plan, weather, alternatives, and how well your original assumptions are holding up.",
+        "apply": "A new forecast may mean the route or destination must change.",
+        "image": {
+          "src": "assets/images/faa/figure-2-9.webp",
+          "caption": "FAA Pilot’s Handbook of Aeronautical Knowledge · Figure 2-9 (cropped to the relevant diagram)",
+          "official": true
+        }
+      },
+      {
+        "title": "Plane",
+        "explain": "Evaluate aircraft condition, fuel, systems, equipment, and any change in aircraft capability.",
+        "apply": "A failed alternator changes the energy and equipment situation.",
+        "image": null
+      },
+      {
+        "title": "Pilot",
+        "explain": "Consider current fatigue, stress, health, proficiency, and ability to handle today’s demands.",
+        "apply": "A physically fit pilot may still be mentally overloaded.",
+        "image": null
+      },
+      {
+        "title": "Passengers",
+        "explain": "Consider passenger health, anxiety, expectations, and ability to assist appropriately.",
+        "apply": "A sick passenger may make a diversion the safest and most humane outcome.",
+        "image": null
+      },
+      {
+        "title": "Programming",
+        "explain": "Evaluate avionics and automation setup; program early, confirm entries, and avoid heads-down distraction during critical phases.",
+        "apply": "Enter and verify a diversion route before arriving near terrain.",
+        "image": null
+      },
+      {
+        "title": "Revisit at key flight phases",
+        "explain": "The FAA teaches the 5 Ps as a recurring in-flight check rather than a one-time preflight exercise.",
+        "apply": "Re-check them before departure, en route, before descent, and whenever circumstances change.",
+        "image": null
+      }
+    ],
+    "check": null,
+    "cover": "assets/images/faa/figure-2-9.webp",
+    "section": 11
+  },
+  {
+    "id": 211,
+    "title": "3P: Perceive, Process, Perform",
+    "category": "FAA Chapter 2 • 2-15–2-18",
+    "pages": "2-15–2-18",
+    "concepts": [
+      {
+        "title": "Perceive the hazards",
+        "explain": "Identify what can cause harm. PAVE provides a systematic way to review Pilot, Aircraft, enVironment, and External pressures.",
+        "apply": "Perceive: crosswind is increasing and the runway is wet.",
+        "image": null
+      },
+      {
+        "title": "Process the risk with CARE",
+        "explain": "Consider Consequences, Alternatives, Reality, and External pressures. Ask what could happen, what else is available, and whether a bias is influencing judgment.",
+        "apply": "Process: a strong crosswind on a slick runway may exceed your experience; an alternate runway is available.",
+        "image": {
+          "src": "assets/images/faa/figure-2-12.webp",
+          "caption": "FAA Pilot’s Handbook of Aeronautical Knowledge · Figure 2-12 (cropped to the relevant diagram)",
+          "official": true
+        }
+      },
+      {
+        "title": "Perform with TEAM",
+        "explain": "Choose a way to Transfer, Eliminate, Accept, or Mitigate the risk as appropriate. Not every risk should be accepted.",
+        "apply": "Perform: divert to an airport with a runway aligned with the wind.",
+        "image": {
+          "src": "assets/images/faa/figure-2-13.webp",
+          "caption": "FAA Pilot’s Handbook of Aeronautical Knowledge · Figure 2-13 (cropped to the relevant diagram)",
+          "official": true
+        }
+      },
+      {
+        "title": "The loop continues",
+        "explain": "After acting, perceive the new situation and reassess; good ADM is not completed by one decision.",
+        "apply": "After diverting, check fuel and updated weather at the alternate.",
+        "image": null
+      },
+      {
+        "title": "The FAA’s worked flight example",
+        "explain": "The chapter follows a cross-country decision process through PAVE, CARE, and TEAM. Its key teaching is to connect hazard recognition to a concrete control.",
+        "apply": "Practice turning “weather looks bad” into a specific observation, consequence, alternative, and action.",
+        "image": {
+          "src": "assets/images/faa/figure-2-11.webp",
+          "caption": "FAA Pilot’s Handbook of Aeronautical Knowledge · Figure 2-11 (cropped to the relevant diagram)",
+          "official": true
+        }
+      }
+    ],
+    "check": {
+      "question": "In the 3P process, what is CARE used for?",
+      "options": [
+        "Processing and evaluating risks",
+        "Programming the autopilot",
+        "Issuing a clearance"
+      ],
+      "answer": 0,
+      "explanation": "CARE stands for Consequences, Alternatives, Reality, External pressures; it supports the Process stage."
+    },
+    "cover": "assets/images/faa/figure-2-12.webp",
+    "section": 12
+  },
+  {
+    "id": 212,
+    "title": "DECIDE: A Deliberate Model",
+    "category": "FAA Chapter 2 • 2-19–2-20",
+    "pages": "2-19–2-20",
+    "concepts": [
+      {
+        "title": "D — Detect",
+        "explain": "Notice that a change has occurred or that something does not match expectation.",
+        "apply": "Oil-pressure indication falls below the expected range.",
+        "image": {
+          "src": "assets/images/faa/figure-2-14.webp",
+          "caption": "FAA Pilot’s Handbook of Aeronautical Knowledge · Figure 2-14 (cropped to the relevant diagram)",
+          "official": true
+        }
+      },
+      {
+        "title": "E — Estimate",
+        "explain": "Assess whether the change creates a problem and how quickly it requires action.",
+        "apply": "Determine whether the indication suggests an urgent engine problem.",
+        "image": null
+      },
+      {
+        "title": "C — Choose",
+        "explain": "Select the desired safe outcome or objective.",
+        "apply": "Decide to reach a suitable landing site rather than preserve the original route.",
+        "image": null
+      },
+      {
+        "title": "I — Identify",
+        "explain": "Identify realistic actions that can achieve the outcome, using checklists and available resources.",
+        "apply": "Find the nearest suitable airport and applicable abnormal procedure.",
+        "image": null
+      },
+      {
+        "title": "D — Do",
+        "explain": "Carry out the selected actions promptly and correctly.",
+        "apply": "Reduce workload, communicate, and turn toward the selected landing site.",
+        "image": null
+      },
+      {
+        "title": "E — Evaluate",
+        "explain": "Check whether your actions solved the issue and whether the new situation requires another response.",
+        "apply": "Verify actual airplane performance and adjust plans.",
+        "image": null
+      },
+      {
+        "title": "Emergency procedures come first",
+        "explain": "DECIDE is a reasoning model, not a replacement for immediate memory items, established emergency procedures, or maintaining control of the aircraft.",
+        "apply": "A pilot facing a critical event must aviate and apply appropriate procedures, not recite acronyms while control is lost.",
+        "image": null
+      }
+    ],
+    "check": {
+      "question": "What is the final step in DECIDE?",
+      "options": [
+        "Estimate",
+        "Evaluate",
+        "Detect"
+      ],
+      "answer": 1,
+      "explanation": "Evaluate checks the results of the action, and may begin another decision cycle."
+    },
+    "cover": "assets/images/faa/figure-2-14.webp",
+    "section": 13
+  },
+  {
+    "id": 213,
+    "title": "Naturalistic Decision-Making",
+    "category": "FAA Chapter 2 • 2-19–2-21",
+    "pages": "2-19–2-21",
+    "concepts": [
+      {
+        "title": "Experienced pilots recognize patterns",
+        "explain": "With practice, pilots can recognize familiar cues and select an appropriate response quickly, especially in time-pressured situations.",
+        "apply": "A practiced pilot notices signs of an unstable approach early.",
+        "image": null
+      },
+      {
+        "title": "Rapid decisions still need monitoring",
+        "explain": "A familiar-looking situation may be misleading. Review whether your first interpretation fits the evidence.",
+        "apply": "A “familiar” GPS warning may represent a different system state.",
+        "image": null
+      },
+      {
+        "title": "Use procedures and training",
+        "explain": "Pattern recognition develops from sound instruction, deliberate practice, and feedback—not simply hours flown.",
+        "apply": "Scenario training can build more useful cues than memorizing a definition.",
+        "image": null
+      },
+      {
+        "title": "Know when to slow the problem down",
+        "explain": "When time permits, move back to a structured analysis instead of forcing a snap decision.",
+        "apply": "In cruise, take the time to re-check forecasts and alternates.",
+        "image": null
+      }
+    ],
+    "check": null,
+    "cover": null,
+    "section": 14
+  },
+  {
+    "id": 214,
+    "title": "Stress, Fatigue, and Operational Pitfalls",
+    "category": "FAA Chapter 2 • 2-21–2-23",
+    "pages": "2-21–2-23",
+    "concepts": [
+      {
+        "title": "Stress changes judgment",
+        "explain": "Physiological, psychological, and environmental stressors can narrow attention and make poor choices seem urgent.",
+        "apply": "High workload during turbulence may lead to missed checklist items.",
+        "image": null
+      },
+      {
+        "title": "Recognize the sources",
+        "explain": "Fatigue, illness, social pressure, equipment issues, noise, temperature, and unfamiliarity can all increase stress.",
+        "apply": "A difficult day at work can make an otherwise routine flight unusually demanding.",
+        "image": {
+          "src": "assets/images/faa/figure-2-16.webp",
+          "caption": "FAA Pilot’s Handbook of Aeronautical Knowledge · Figure 2-16 (cropped to the relevant diagram)",
+          "official": true
+        }
+      },
+      {
+        "title": "Operational pitfalls",
+        "explain": "The FAA highlights habits such as peer pressure, loss of situational awareness, continuing despite warning signs, and poor priority-setting.",
+        "apply": "Catch the thought “we’re almost there” when conditions are deteriorating.",
+        "image": {
+          "src": "assets/images/faa/figure-2-15.webp",
+          "caption": "FAA Pilot’s Handbook of Aeronautical Knowledge · Figure 2-15 (cropped to the relevant diagram)",
+          "official": true
+        }
+      },
+      {
+        "title": "Prioritize and reduce workload",
+        "explain": "Use checklists, request assistance, simplify the mission, and deal with immediate safety tasks first.",
+        "apply": "Ask ATC for a hold or vectors rather than rushing through programming.",
+        "image": null
+      },
+      {
+        "title": "Good stress management starts before flight",
+        "explain": "Rest, preparation, proficiency, honest self-assessment, and a conservative plan improve resilience.",
+        "apply": "Do not rely on adrenaline to compensate for lack of sleep.",
+        "image": null
+      }
+    ],
+    "check": null,
+    "cover": "assets/images/faa/figure-2-16.webp",
+    "section": 15
+  },
+  {
+    "id": 215,
+    "title": "Managing Workload and Situational Awareness",
+    "category": "FAA Chapter 2 • 2-23–2-26",
+    "pages": "2-23–2-26",
+    "concepts": [
+      {
+        "title": "Aviate, navigate, communicate",
+        "explain": "Maintain aircraft control and flight path, determine where to go, then communicate as priorities allow; real emergencies may require nearly simultaneous actions.",
+        "apply": "Do not let a radio exchange steal attention from maintaining airspeed.",
+        "image": null
+      },
+      {
+        "title": "Workload has a ceiling",
+        "explain": "As tasks accumulate, performance may decline beyond the pilot’s available mental capacity. The FAA illustration emphasizes that limit.",
+        "apply": "An unexpected change during approach can exceed the capacity of one pilot.",
+        "image": {
+          "src": "assets/images/faa/figure-2-20.webp",
+          "caption": "FAA Pilot’s Handbook of Aeronautical Knowledge · Figure 2-20 (cropped to the relevant diagram)",
+          "official": true
+        }
+      },
+      {
+        "title": "Plan ahead for peak periods",
+        "explain": "Set frequencies, organize charts, and brief procedures before busy phases.",
+        "apply": "Brief the landing runway and go-around plan early.",
+        "image": null
+      },
+      {
+        "title": "Use passengers carefully",
+        "explain": "A capable passenger may assist with simple noncritical tasks, but the pilot retains responsibility and must ensure any request is appropriate.",
+        "apply": "A passenger can help locate an airport diagram while the pilot flies.",
+        "image": null
+      },
+      {
+        "title": "Keep a reliable mental picture",
+        "explain": "Maintain awareness of position, altitude, traffic, weather, runway, terrain, aircraft state, and what is likely to happen next.",
+        "apply": "Cross-check the moving map against instruments and outside references.",
+        "image": null
+      },
+      {
+        "title": "Avoid task fixation",
+        "explain": "A pilot who focuses on an avionics problem can inadvertently neglect airspeed or traffic.",
+        "apply": "If troubleshooting consumes attention, use a safe configuration and reduce tasks.",
+        "image": null
+      }
+    ],
+    "check": {
+      "question": "Which action best protects aircraft control during unexpected avionics trouble?",
+      "options": [
+        "Prioritize flying and simplify tasks",
+        "Keep your eyes on the touchscreen until fixed",
+        "Stop monitoring airspeed"
+      ],
+      "answer": 0,
+      "explanation": "The pilot must maintain aircraft control and situational awareness while handling problems."
+    },
+    "cover": "assets/images/faa/figure-2-20.webp",
+    "section": 16
+  },
+  {
+    "id": 216,
+    "title": "Automation Management",
+    "category": "FAA Chapter 2 • 2-26–2-32",
+    "pages": "2-26–2-32",
+    "concepts": [
+      {
+        "title": "Automation is a resource, not a substitute pilot",
+        "explain": "Modern flight decks provide navigation, flight information, and workload support, but pilots remain responsible for understanding and monitoring aircraft behavior.",
+        "apply": "An autopilot mode that is engaged incorrectly can direct the airplane away from the intended path.",
+        "image": {
+          "src": "assets/images/faa/figure-2-23.webp",
+          "caption": "FAA Pilot’s Handbook of Aeronautical Knowledge · Figure 2-23 (cropped to the relevant diagram)",
+          "official": true
+        }
+      },
+      {
+        "title": "Know what mode is active",
+        "explain": "Understand the difference between what you intended the system to do and what it is actually commanding or displaying.",
+        "apply": "Confirm the autopilot annunciations after selecting an altitude mode.",
+        "image": null
+      },
+      {
+        "title": "Avoid programming at critical moments",
+        "explain": "Heads-down data entry can reduce situational awareness near terrain, traffic, or landing.",
+        "apply": "Do not enter a complex new route while turning final.",
+        "image": null
+      },
+      {
+        "title": "Verify data inputs and outputs",
+        "explain": "Wrong waypoints, altitudes, database selections, or units can produce believable but wrong guidance. Cross-check information independently.",
+        "apply": "Verify an entered waypoint on the chart and the navigation display.",
+        "image": null
+      },
+      {
+        "title": "Complacency and overreliance",
+        "explain": "Highly capable equipment can create a false sense of security. Stay able to hand-fly and navigate without the feature.",
+        "apply": "Know the manual flight path if an autopilot disconnects.",
+        "image": null
+      },
+      {
+        "title": "Different platforms require different knowledge",
+        "explain": "A feature on one glass-cockpit model may behave differently on another. Aircraft-specific familiarity matters.",
+        "apply": "A pilot transitioning to a different avionics package must study mode behavior.",
+        "image": null
+      },
+      {
+        "title": "When automation becomes a distraction",
+        "explain": "If a system does not behave as expected, simplify or disengage it when appropriate and fly a known safe configuration.",
+        "apply": "Hand-flying a stable heading may be safer than debugging a flight-plan screen.",
+        "image": null
+      },
+      {
+        "title": "Respect the entire flight-management system",
+        "explain": "The FAA cautions that information management can enhance or diminish situational awareness. Use automation deliberately and question unexpected indications.",
+        "apply": "A colorful display does not replace the need to monitor where the airplane is actually going.",
+        "image": null
+      }
+    ],
+    "check": {
+      "question": "The selected autopilot mode does not match what you expected. What should you do?",
+      "options": [
+        "Assume the display is wrong",
+        "Verify mode indications and maintain control",
+        "Trust the route regardless"
+      ],
+      "answer": 1,
+      "explanation": "Confirm what automation is actually doing; simplify or disengage as appropriate while controlling the aircraft."
+    },
+    "cover": "assets/images/faa/figure-2-23.webp",
+    "section": 17
+  }
+]

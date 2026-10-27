@@ -1,0 +1,711 @@
+[
+  {
+    "id": "ch12-01",
+    "title": "The Atmosphere We Fly In",
+    "category": "WEATHER THEORY • 12-1–12-3",
+    "pages": "12-1–12-3",
+    "cover": "assets/figures/atmosphere.webp",
+    "concepts": [
+      {
+        "title": "Weather is an operating condition",
+        "explain": "Weather describes the atmosphere at a specific time and place. Conditions change over time and distance, so a report does not guarantee what you will encounter later.",
+        "apply": "For every planned leg, consider conditions along the route and at the destination.",
+        "image": {
+          "src": "assets/figures/atmosphere.webp",
+          "caption": "FAA Figures 12-1 and 12-2 — Atmospheric composition and layers"
+        }
+      },
+      {
+        "title": "What air is made of",
+        "explain": "Dry air consists mainly of nitrogen and oxygen, with smaller quantities of other gases. Water vapor varies and is crucial to weather.",
+        "apply": "A pilot cares about water vapor because it can form clouds, fog, precipitation and icing."
+      },
+      {
+        "title": "The troposphere",
+        "explain": "Most everyday weather occurs in the lowest atmospheric layer, the troposphere. Its depth varies with latitude and season.",
+        "apply": "Clouds, fronts and convective turbulence usually develop in the layer where airplanes operate."
+      },
+      {
+        "title": "What changes with height",
+        "explain": "Pressure generally decreases with height. In the standard atmosphere, temperature also generally decreases in the troposphere, but inversions occur.",
+        "apply": "Expect altitude and temperature to influence both aircraft performance and weather."
+      },
+      {
+        "title": "Atmosphere versus standard atmosphere",
+        "explain": "The standard atmosphere is a reference model, not a promise of real conditions. Actual pressure and temperature vary widely.",
+        "apply": "Use observed weather and aircraft performance charts instead of assuming a standard day."
+      }
+    ],
+    "check": {
+      "question": "Why can conditions change after a weather report is issued?",
+      "options": [
+        "Weather varies with time and location",
+        "Weather reports guarantee conditions for 24 hours",
+        "Only clouds change, not winds"
+      ],
+      "answer": 0,
+      "explanation": "Weather is dynamic; a report describes observations at a specific time and place."
+    }
+  },
+  {
+    "id": "ch12-02",
+    "title": "Pressure, Temperature and Density",
+    "category": "WEATHER THEORY • 12-4–12-6",
+    "pages": "12-4–12-6",
+    "cover": "assets/figures/pressure.webp",
+    "concepts": [
+      {
+        "title": "Pressure is the weight of the air",
+        "explain": "Air pressure comes from the weight of the atmosphere above a location. It is commonly measured with barometers.",
+        "apply": "Pressure differences drive winds and matter to altimeter settings.",
+        "image": {
+          "src": "assets/figures/pressure.webp",
+          "caption": "FAA Figures 12-5 and 12-6 — Barometric pressure"
+        }
+      },
+      {
+        "title": "Temperature changes density",
+        "explain": "When air warms without a compensating increase in pressure, its density falls. Cooler air tends to be denser.",
+        "apply": "Hot conditions can sharply reduce takeoff and climb performance."
+      },
+      {
+        "title": "Density altitude",
+        "explain": "Density altitude is pressure altitude corrected for nonstandard temperature. High density altitude means the aircraft performs as though at a higher elevation.",
+        "apply": "A high-elevation airport on a hot day needs especially careful performance planning."
+      },
+      {
+        "title": "The pressure–altitude connection",
+        "explain": "A barometer or altimeter detects pressure, not geometric height directly. Altimeter errors can arise when the setting is wrong.",
+        "apply": "Use the correct local altimeter setting and monitor weather changes."
+      },
+      {
+        "title": "Pressure changes and high terrain",
+        "explain": "Pressure decreases as you climb. Less dense air generally reduces engine, propeller and wing performance.",
+        "apply": "Terrain clearance and climb margins can be critical when operating near mountains."
+      }
+    ],
+    "check": {
+      "question": "What usually happens to takeoff performance at high density altitude?",
+      "options": [
+        "It improves",
+        "It degrades",
+        "It is unaffected"
+      ],
+      "answer": 1,
+      "explanation": "High density altitude generally reduces aircraft performance; consult the aircraft manual."
+    }
+  },
+  {
+    "id": "ch12-03",
+    "title": "Atmospheric Circulation",
+    "category": "WEATHER THEORY • 12-2–12-4",
+    "pages": "12-2–12-4",
+    "cover": "assets/figures/circulation.webp",
+    "concepts": [
+      {
+        "title": "Uneven heating starts motion",
+        "explain": "Solar energy warms Earth unevenly. Differences in temperature and density establish pressure differences that move air.",
+        "apply": "Weather changes because the atmosphere continually tries to redistribute energy.",
+        "image": {
+          "src": "assets/figures/circulation.webp",
+          "caption": "FAA Figure 12-4 — Global circulation"
+        }
+      },
+      {
+        "title": "Warm air rises, cool air sinks",
+        "explain": "Heated air can become buoyant, while cooler, denser air can sink. Vertical currents are an important source of turbulence.",
+        "apply": "Thermals may create bumps even on otherwise clear days."
+      },
+      {
+        "title": "The Coriolis effect",
+        "explain": "Earth’s rotation deflects large-scale moving air relative to its surface. The direction differs between hemispheres.",
+        "apply": "Global winds do not travel in simple straight lines from high to low pressure."
+      },
+      {
+        "title": "Circulation cells",
+        "explain": "The handbook describes large circulation regions that transfer heat between the equator and poles.",
+        "apply": "These patterns shape prevailing winds and broad climate zones."
+      },
+      {
+        "title": "Local conditions still win",
+        "explain": "Global models explain tendencies, but terrain, fronts and weather systems determine local winds.",
+        "apply": "Use current forecasts and observations for flight decisions."
+      }
+    ],
+    "check": {
+      "question": "Which factor drives broad atmospheric circulation?",
+      "options": [
+        "Uneven solar heating",
+        "Airport elevation alone",
+        "Magnetic variation"
+      ],
+      "answer": 0,
+      "explanation": "Unequal heating creates temperature and pressure contrasts that move the atmosphere."
+    }
+  },
+  {
+    "id": "ch12-04",
+    "title": "Pressure Systems and Winds",
+    "category": "WEATHER THEORY • 12-6–12-8",
+    "pages": "12-6–12-8",
+    "cover": "assets/figures/wind.webp",
+    "concepts": [
+      {
+        "title": "Pressure gradient force",
+        "explain": "Air tends to move from higher toward lower pressure due to differences in atmospheric pressure.",
+        "apply": "Closely spaced isobars often indicate stronger winds.",
+        "image": {
+          "src": "assets/figures/wind.webp",
+          "caption": "FAA Figure 12-10 — High and low pressure circulation"
+        }
+      },
+      {
+        "title": "High pressure patterns",
+        "explain": "Near the surface in the Northern Hemisphere, winds generally spiral clockwise and outward around a high.",
+        "apply": "High pressure does not guarantee unlimited visibility or turbulence-free air."
+      },
+      {
+        "title": "Low pressure patterns",
+        "explain": "In the Northern Hemisphere, surface flow generally spirals counterclockwise and inward around a low.",
+        "apply": "Low pressure often accompanies rising air and unsettled weather."
+      },
+      {
+        "title": "Friction near the ground",
+        "explain": "Surface friction slows winds and changes their direction compared with winds aloft.",
+        "apply": "Expect a wind difference between the runway and altitude."
+      },
+      {
+        "title": "Interpret isobars",
+        "explain": "Isobars connect points with equal atmospheric pressure. Their spacing helps indicate the pressure gradient.",
+        "apply": "Tight spacing suggests careful wind and turbulence planning."
+      }
+    ],
+    "check": {
+      "question": "On a surface pressure chart, closely spaced isobars generally indicate:",
+      "options": [
+        "Weak pressure gradient",
+        "Strong pressure gradient",
+        "No wind"
+      ],
+      "answer": 1,
+      "explanation": "A strong horizontal pressure gradient often supports stronger wind."
+    }
+  },
+  {
+    "id": "ch12-05",
+    "title": "Local Winds and Terrain",
+    "category": "WEATHER THEORY • 12-8–12-10",
+    "pages": "12-8–12-10",
+    "cover": "assets/figures/breeze.webp",
+    "concepts": [
+      {
+        "title": "Sea breeze during the day",
+        "explain": "Land typically heats more quickly than water. Cooler marine air can move inland as a sea breeze.",
+        "apply": "An afternoon coastal wind shift may change the active runway.",
+        "image": {
+          "src": "assets/figures/breeze.webp",
+          "caption": "FAA Figure 12-13 — Sea and land breezes"
+        }
+      },
+      {
+        "title": "Land breeze at night",
+        "explain": "Land often cools faster than water at night, supporting a weaker offshore surface flow.",
+        "apply": "Do not assume morning coastal winds will match afternoon winds."
+      },
+      {
+        "title": "Mountain and valley effects",
+        "explain": "Terrain channels and redirects airflow. Upslope and downslope circulations can develop from heating and cooling.",
+        "apply": "A valley wind observation may not represent winds over a nearby ridge."
+      },
+      {
+        "title": "Mechanical turbulence",
+        "explain": "Wind flowing around trees, buildings and terrain can create eddies and rough air downstream.",
+        "apply": "Look for turbulence beyond hangars or ridgelines, particularly near landing."
+      },
+      {
+        "title": "Mountain wave",
+        "explain": "Stable air crossing mountain ranges may create waves, strong downdrafts and rotor turbulence.",
+        "apply": "Clear skies do not rule out serious mountain-wave hazards."
+      }
+    ],
+    "check": {
+      "question": "A steady wind over a ridge can produce:",
+      "options": [
+        "Mountain wave and rotor turbulence",
+        "Guaranteed smooth air",
+        "Only sea breezes"
+      ],
+      "answer": 0,
+      "explanation": "Flow over terrain may create wave action, rotor turbulence and strong downdrafts."
+    }
+  },
+  {
+    "id": "ch12-06",
+    "title": "Wind Shear and Microbursts",
+    "category": "WEATHER THEORY • 12-10–12-11",
+    "pages": "12-10–12-11",
+    "cover": "assets/figures/microburst.webp",
+    "concepts": [
+      {
+        "title": "Wind shear is a rapid wind change",
+        "explain": "Wind shear is a change in wind speed and/or direction over a short distance, including changes with height.",
+        "apply": "Near the ground, abrupt shifts in airspeed and lift can be dangerous.",
+        "image": {
+          "src": "assets/figures/microburst.webp",
+          "caption": "FAA Figure 12-17 — Microburst"
+        }
+      },
+      {
+        "title": "What makes a microburst",
+        "explain": "A microburst is a concentrated, powerful downdraft that hits the ground and spreads out.",
+        "apply": "Its outward wind can change quickly from headwind to downdraft to tailwind."
+      },
+      {
+        "title": "The deceptive first headwind",
+        "explain": "A pilot entering the leading side of a microburst may initially gain indicated airspeed.",
+        "apply": "An initial performance improvement can precede severe energy loss."
+      },
+      {
+        "title": "The dangerous departure side",
+        "explain": "As the aircraft passes through the core, downdraft and changing tailwind may cause rapid performance loss.",
+        "apply": "Do not attempt to fly through suspected microburst activity."
+      },
+      {
+        "title": "Recognition and avoidance",
+        "explain": "Convective storms, virga and severe wind changes are warning signs. Alerts and airport systems may provide additional warning.",
+        "apply": "Avoid the hazard rather than relying on last-second recovery."
+      }
+    ],
+    "check": {
+      "question": "Why can an initial headwind gain in a microburst be dangerous?",
+      "options": [
+        "It always remains beneficial",
+        "It may be followed by severe downdraft and tailwind",
+        "It guarantees climb performance"
+      ],
+      "answer": 1,
+      "explanation": "The wind changes through the microburst, making a temporary gain misleading."
+    }
+  },
+  {
+    "id": "ch12-07",
+    "title": "Stability and Lapse Rates",
+    "category": "WEATHER THEORY • 12-12–12-14",
+    "pages": "12-12–12-14",
+    "cover": null,
+    "concepts": [
+      {
+        "title": "Environmental lapse rate",
+        "explain": "The rate of temperature change with height in the actual atmosphere is the environmental lapse rate.",
+        "apply": "Compare this profile with rising parcels to anticipate cloud development."
+      },
+      {
+        "title": "Dry adiabatic cooling",
+        "explain": "Unsaturated rising air expands and cools at roughly 3°C per 1,000 feet.",
+        "apply": "Heating near the surface can promote rising thermals."
+      },
+      {
+        "title": "Moist adiabatic cooling",
+        "explain": "Once air saturates, condensation releases latent heat and the cooling rate is generally lower and variable.",
+        "apply": "Cloud growth can become stronger after saturation."
+      },
+      {
+        "title": "Stable versus unstable air",
+        "explain": "Stable air resists vertical displacement, while unstable air encourages continued vertical motion.",
+        "apply": "Unstable air favors turbulence, showers and convective clouds."
+      },
+      {
+        "title": "Temperature inversions",
+        "explain": "An inversion occurs where temperature increases with altitude. It often traps haze, smoke or moisture below.",
+        "apply": "Surface visibility can be poor even with clear air above."
+      }
+    ],
+    "check": {
+      "question": "Which environment is more favorable for strong vertical cloud growth?",
+      "options": [
+        "Unstable air",
+        "Strong stable inversion everywhere",
+        "No moisture and no lifting"
+      ],
+      "answer": 0,
+      "explanation": "Instability supports vertical currents, especially with moisture and a lifting mechanism."
+    }
+  },
+  {
+    "id": "ch12-08",
+    "title": "Humidity, Dew Point and Condensation",
+    "category": "WEATHER THEORY • 12-13–12-15",
+    "pages": "12-13–12-15",
+    "cover": "assets/figures/humidity.webp",
+    "concepts": [
+      {
+        "title": "Water vapor matters",
+        "explain": "Humidity is the amount of water vapor present in air, and warmer air has a greater saturation vapor capacity.",
+        "apply": "Moisture helps determine clouds, visibility and icing potential.",
+        "image": {
+          "src": "assets/figures/humidity.webp",
+          "caption": "FAA Figure 12-20 — Humidity and dew point"
+        }
+      },
+      {
+        "title": "Relative humidity",
+        "explain": "Relative humidity compares current water vapor with the saturation amount at the same temperature.",
+        "apply": "A rise in relative humidity can occur even without adding moisture if air cools."
+      },
+      {
+        "title": "Dew point",
+        "explain": "Dew point is the temperature to which air must cool, at constant pressure, for saturation to occur.",
+        "apply": "A small temperature–dew point spread indicates possible low clouds or fog."
+      },
+      {
+        "title": "Condensation nuclei",
+        "explain": "Water droplets form on tiny airborne particles when air becomes saturated under suitable conditions.",
+        "apply": "Clouds are formed from droplets or ice crystals, not invisible vapor alone."
+      },
+      {
+        "title": "Cooling creates condensation",
+        "explain": "Lifting, radiation cooling or mixing can bring air to saturation and create clouds or fog.",
+        "apply": "Watch for dropping temperatures near the dew point after sunset."
+      }
+    ],
+    "check": {
+      "question": "Temperature falling toward dew point may indicate:",
+      "options": [
+        "Increasing saturation potential",
+        "Guaranteed clear skies",
+        "Lower relative humidity regardless of moisture"
+      ],
+      "answer": 0,
+      "explanation": "As temperature approaches dew point, relative humidity rises and fog or cloud may form."
+    }
+  },
+  {
+    "id": "ch12-09",
+    "title": "Fog, Dew and Frost",
+    "category": "WEATHER THEORY • 12-14–12-16",
+    "pages": "12-14–12-16",
+    "cover": null,
+    "concepts": [
+      {
+        "title": "Radiation fog",
+        "explain": "On clear, calm nights the ground cools and can chill nearby moist air to saturation.",
+        "apply": "A clear evening can become a foggy early morning."
+      },
+      {
+        "title": "Advection fog",
+        "explain": "Moist air moving over a colder surface may cool to saturation, creating fog.",
+        "apply": "Advection fog can persist or move into an airport unexpectedly."
+      },
+      {
+        "title": "Upslope fog",
+        "explain": "Moist air rising along terrain cools and can become saturated.",
+        "apply": "Terrain can create low visibility even away from major storms."
+      },
+      {
+        "title": "Steam fog",
+        "explain": "Cold air passing over comparatively warm water may gain water vapor and quickly saturate.",
+        "apply": "Fog mechanisms differ; knowing the type helps anticipate persistence."
+      },
+      {
+        "title": "Frost is a preflight hazard",
+        "explain": "Frost deposits on aircraft surfaces can disturb smooth airflow and reduce lift.",
+        "apply": "Remove contamination according to approved procedures before departure."
+      }
+    ],
+    "check": {
+      "question": "Which scenario is associated with radiation fog?",
+      "options": [
+        "Clear, calm night with moist air",
+        "Hot dry afternoon with strong mixing",
+        "Dry strong downslope wind"
+      ],
+      "answer": 0,
+      "explanation": "Overnight surface cooling can bring nearby moist air to saturation."
+    }
+  },
+  {
+    "id": "ch12-10",
+    "title": "Cloud Types and Flight Clues",
+    "category": "WEATHER THEORY • 12-16–12-17",
+    "pages": "12-16–12-17",
+    "cover": "assets/figures/cloud.webp",
+    "concepts": [
+      {
+        "title": "Clouds are classified by appearance and level",
+        "explain": "Stratus forms layers, cumulus forms heaps, and cirrus appears as high wispy clouds.",
+        "apply": "The cloud shape gives clues about atmospheric stability.",
+        "image": {
+          "src": "assets/figures/cloud.webp",
+          "caption": "FAA Figure 12-22 — Cloud families"
+        }
+      },
+      {
+        "title": "Stratiform clouds",
+        "explain": "Extensive layers often form in relatively stable air and may bring widespread low ceilings.",
+        "apply": "They can complicate VFR route and alternate planning."
+      },
+      {
+        "title": "Cumuliform clouds",
+        "explain": "Puffy clouds are linked to vertical currents, and large towers may signal strong instability.",
+        "apply": "Towering cumulus can develop into thunderstorms."
+      },
+      {
+        "title": "Nimbus signals precipitation",
+        "explain": "Cloud names with nimbus generally indicate precipitation-producing clouds.",
+        "apply": "Precipitation and cloud bases influence visibility and approach conditions."
+      },
+      {
+        "title": "Cloud bases and ceilings",
+        "explain": "A ceiling is the height above ground of the lowest broken or overcast layer, or vertical visibility into an obscuration.",
+        "apply": "Distinguish a scattered layer from a ceiling when evaluating weather minima."
+      }
+    ],
+    "check": {
+      "question": "Towering cumulus suggests:",
+      "options": [
+        "Growing vertical convection",
+        "Uniformly stable stratiform conditions",
+        "No possible turbulence"
+      ],
+      "answer": 0,
+      "explanation": "Strong vertical development can precede thunderstorms."
+    }
+  },
+  {
+    "id": "ch12-11",
+    "title": "Air Masses",
+    "category": "WEATHER THEORY • 12-17–12-19",
+    "pages": "12-17–12-19",
+    "cover": null,
+    "concepts": [
+      {
+        "title": "What is an air mass?",
+        "explain": "An air mass is a large body of air with relatively uniform temperature and moisture characteristics.",
+        "apply": "Air-mass properties explain why weather shifts after some frontal passages."
+      },
+      {
+        "title": "Continental versus maritime",
+        "explain": "Continental source regions tend to be drier; maritime source regions provide more moisture.",
+        "apply": "A maritime air mass may support clouds and widespread precipitation."
+      },
+      {
+        "title": "Polar versus tropical",
+        "explain": "Polar air originates in colder source regions; tropical air originates in warmer regions.",
+        "apply": "Cold polar air moving over warmer surfaces can become unstable."
+      },
+      {
+        "title": "Modification en route",
+        "explain": "As an air mass travels it gains or loses heat and moisture to the underlying surface.",
+        "apply": "Expect an air mass to change as it crosses mountains, coasts and land."
+      },
+      {
+        "title": "Boundaries create weather",
+        "explain": "Where air masses of contrasting properties meet, fronts may form.",
+        "apply": "Frontal weather can change rapidly along a proposed cross-country route."
+      }
+    ],
+    "check": {
+      "question": "Which air mass is generally moist?",
+      "options": [
+        "Continental polar",
+        "Maritime tropical",
+        "Continental tropical"
+      ],
+      "answer": 1,
+      "explanation": "Maritime air mass source regions supply moisture."
+    }
+  },
+  {
+    "id": "ch12-12",
+    "title": "Reading Fronts",
+    "category": "WEATHER THEORY • 12-19–12-22",
+    "pages": "12-19–12-22",
+    "cover": "assets/figures/warmfront.webp",
+    "concepts": [
+      {
+        "title": "A front separates air masses",
+        "explain": "A front is a transition zone between air masses with different properties.",
+        "apply": "Front location and movement help predict ceiling, visibility and wind shifts.",
+        "image": {
+          "src": "assets/figures/warmfront.webp",
+          "caption": "FAA Figures 12-24 and 12-25 — Front symbols and warm front"
+        }
+      },
+      {
+        "title": "Warm front",
+        "explain": "Warm air advances over cooler air, often producing layered clouds and broad precipitation ahead of the boundary.",
+        "apply": "Weather may deteriorate long before the warm front reaches your airport."
+      },
+      {
+        "title": "Cold front",
+        "explain": "Advancing cold air lifts warm air more abruptly, which can favor convective weather and rapid changes.",
+        "apply": "Cold fronts can bring strong gusts and thunderstorms."
+      },
+      {
+        "title": "Stationary front",
+        "explain": "A stationary front moves little and may maintain low clouds or rain over an area.",
+        "apply": "Poor weather can linger longer than expected."
+      },
+      {
+        "title": "Occluded front",
+        "explain": "An occlusion forms when a faster cold front overtakes a warm front.",
+        "apply": "Associated weather can be widespread and complex."
+      },
+      {
+        "title": "Read the map symbols",
+        "explain": "Surface weather charts mark warm, cold, stationary and occluded fronts with different symbols.",
+        "apply": "Always pair chart interpretation with current observations and forecasts."
+      }
+    ],
+    "check": {
+      "question": "Which front may produce widespread layered clouds well ahead of it?",
+      "options": [
+        "Warm front",
+        "Dry line by definition",
+        "No front can produce layered clouds"
+      ],
+      "answer": 0,
+      "explanation": "Gradual overrunning ahead of a warm front can create extensive stratiform clouds."
+    }
+  },
+  {
+    "id": "ch12-13",
+    "title": "Thunderstorm Life Cycle",
+    "category": "WEATHER THEORY • 12-23–12-24",
+    "pages": "12-23–12-24",
+    "cover": "assets/figures/thunder.webp",
+    "concepts": [
+      {
+        "title": "Three ingredients",
+        "explain": "Thunderstorms require moisture, unstable air and a lifting mechanism.",
+        "apply": "When all three are present, convective development deserves close attention.",
+        "image": {
+          "src": "assets/figures/thunder.webp",
+          "caption": "FAA Figure 12-28 — Thunderstorm stages"
+        }
+      },
+      {
+        "title": "Cumulus stage",
+        "explain": "Strong updrafts dominate the initial stage as the cloud builds vertically.",
+        "apply": "A growing cumulus tower can develop into a serious hazard."
+      },
+      {
+        "title": "Mature stage",
+        "explain": "Updrafts and downdrafts coexist, often with precipitation, lightning, hail and gust fronts.",
+        "apply": "This is a particularly hazardous stage for nearby flight."
+      },
+      {
+        "title": "Dissipating stage",
+        "explain": "Downdrafts dominate as the storm weakens, but significant hazards may persist.",
+        "apply": "Do not assume a fading cell is immediately safe."
+      },
+      {
+        "title": "Storms can regenerate",
+        "explain": "Outflow from one storm can trigger new convection nearby.",
+        "apply": "Avoid storm clusters and evolving lines rather than a single visible cell."
+      }
+    ],
+    "check": {
+      "question": "During the mature thunderstorm stage, which movements coexist?",
+      "options": [
+        "Only updrafts",
+        "Updrafts and downdrafts",
+        "Only horizontal wind"
+      ],
+      "answer": 1,
+      "explanation": "Mature storms contain both updrafts and downdrafts and numerous hazards."
+    }
+  },
+  {
+    "id": "ch12-14",
+    "title": "Thunderstorm Hazards",
+    "category": "WEATHER THEORY • 12-24–12-26",
+    "pages": "12-24–12-26",
+    "cover": "assets/figures/stormwind.webp",
+    "concepts": [
+      {
+        "title": "Turbulence and severe drafts",
+        "explain": "Thunderstorms contain powerful, unpredictable vertical and horizontal air motions.",
+        "apply": "Severe turbulence may occur outside the visible cloud.",
+        "image": {
+          "src": "assets/figures/stormwind.webp",
+          "caption": "FAA Figure 12-29 — Thunderstorm wind and turbulence"
+        }
+      },
+      {
+        "title": "Lightning",
+        "explain": "Thunderstorm electrical activity can damage aircraft systems and disrupt pilot vision.",
+        "apply": "Stay well clear of convective storms."
+      },
+      {
+        "title": "Hail",
+        "explain": "Hail can be carried up and outward from storm cores and damage aircraft.",
+        "apply": "Hail risk may extend beyond visible precipitation."
+      },
+      {
+        "title": "Icing inside storms",
+        "explain": "Supercooled liquid water can accrete on aircraft surfaces, degrading flight performance.",
+        "apply": "Non-equipped aircraft should not enter known icing conditions."
+      },
+      {
+        "title": "Gust fronts and downbursts",
+        "explain": "Strong storm outflow may create sudden surface wind changes well ahead of rainfall.",
+        "apply": "A runway that was usable minutes ago may become unsafe."
+      }
+    ],
+    "check": {
+      "question": "How should a pilot treat a thunderstorm with visible hail or gust-front activity?",
+      "options": [
+        "Avoid it and its surrounding hazardous air",
+        "Fly underneath the storm",
+        "Aim for a narrow gap beneath the anvil"
+      ],
+      "answer": 0,
+      "explanation": "Thunderstorm hazards extend outside the visible core; avoidance is the safest strategy."
+    }
+  },
+  {
+    "id": "ch12-15",
+    "title": "Putting Weather Theory Together",
+    "category": "WEATHER THEORY • 12-1–12-26",
+    "pages": "12-1–12-26",
+    "cover": null,
+    "concepts": [
+      {
+        "title": "Scenario: hot high-altitude departure",
+        "explain": "High temperatures and airport elevation can elevate density altitude and reduce climb performance.",
+        "apply": "Calculate using the aircraft-specific POH rather than intuition."
+      },
+      {
+        "title": "Scenario: dawn fog",
+        "explain": "A humid evening with light winds and cooling temperatures may lead to radiation fog by morning.",
+        "apply": "Review updated observations before driving to the airport."
+      },
+      {
+        "title": "Scenario: approaching cold front",
+        "explain": "Gusts, convective clouds and pressure changes may signal rapidly changing conditions.",
+        "apply": "Consider delay, reroute or cancellation rather than pressing on."
+      },
+      {
+        "title": "Scenario: mountains and wind",
+        "explain": "Strong wind across a ridge may produce wave, rotor and downdraft hazards.",
+        "apply": "Assess cross-mountain conditions with local guidance and conservative margins."
+      },
+      {
+        "title": "The safe decision is dynamic",
+        "explain": "Weather theory explains the mechanisms; a go/no-go decision uses up-to-date products, training, aircraft capability and personal limits.",
+        "apply": "Never substitute this learning website for an official preflight weather briefing."
+      }
+    ],
+    "check": {
+      "question": "What is the best basis for a preflight weather decision?",
+      "options": [
+        "Old lesson screenshots alone",
+        "Current observations, forecasts, briefings and aircraft/pilot limits",
+        "The previous day’s weather"
+      ],
+      "answer": 1,
+      "explanation": "Weather theory must be combined with current reliable weather sources and operational limits."
+    }
+  }
+]

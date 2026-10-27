@@ -1,0 +1,102 @@
+Lesson,Concept,Visual,Type,Source page
+What Makes an Aircraft Airworthy,What aircraft construction covers,,Text only,3-1–3-2
+What Makes an Aircraft Airworthy,Certification starts with a design standard,,Text only,3-1–3-2
+What Makes an Aircraft Airworthy,A type certificate applies to a product design,,Text only,3-1–3-2
+What Makes an Aircraft Airworthy,Production approval is a separate step,,Text only,3-1–3-2
+What Makes an Aircraft Airworthy,An airworthiness certificate is for an individual aircraft,,Text only,3-1–3-2
+What Makes an Aircraft Airworthy,Certification and maintenance are different responsibilities,,Text only,3-1–3-2
+The Four Forces of Flight,Thrust,assets/images/faa/figure-3-1.webp,Original FAA figure,3-2–3-3
+The Four Forces of Flight,Drag,,Text only,3-2–3-3
+The Four Forces of Flight,Weight,,Text only,3-2–3-3
+The Four Forces of Flight,Lift,,Text only,3-2–3-3
+The Four Forces of Flight,Forces change with the maneuver,,Text only,3-2–3-3
+Three Axes and Aircraft Motion,Longitudinal axis: roll,assets/images/faa/figure-3-2.webp,Original FAA figure,3-3
+Three Axes and Aircraft Motion,Lateral axis: pitch,,Text only,3-3
+Three Axes and Aircraft Motion,Vertical axis: yaw,,Text only,3-3
+Three Axes and Aircraft Motion,The center of gravity is the reference,,Text only,3-3
+Three Axes and Aircraft Motion,Motions can happen together,,Text only,3-3
+Center of Gravity and Balance,CG is the balance location,,Text only,3-3–3-4
+Center of Gravity and Balance,Why an excessively forward CG matters,assets/images/faa/figure-3-3.webp,Original FAA figure,3-3–3-4
+Center of Gravity and Balance,Why an excessively aft CG matters,,Text only,3-3–3-4
+Center of Gravity and Balance,Both weight and balance matter,,Text only,3-3–3-4
+Center of Gravity and Balance,Weight can change during flight,,Text only,3-3–3-4
+Identify the Major Airplane Components,Fuselage,assets/images/faa/figure-3-4.webp,Original FAA figure,3-3–3-5
+Identify the Major Airplane Components,Wings,,Text only,3-3–3-5
+Identify the Major Airplane Components,Empennage,,Text only,3-3–3-5
+Identify the Major Airplane Components,Powerplant,,Text only,3-3–3-5
+Identify the Major Airplane Components,Landing gear,,Text only,3-3–3-5
+Identify the Major Airplane Components,Monoplane and biplane,assets/images/faa/figure-3-6.webp,Original FAA figure,3-3–3-5
+Wings: Structure and Primary Controls,Spars carry major wing loads,assets/images/faa/figure-3-7.webp,Original FAA figure,3-4–3-5
+Wings: Structure and Primary Controls,Ribs shape the airfoil,,Text only,3-4–3-5
+Wings: Structure and Primary Controls,Stringers and skin,,Text only,3-4–3-5
+Wings: Structure and Primary Controls,Ailerons control roll,,Text only,3-4–3-5
+Wings: Structure and Primary Controls,Flaps change wing characteristics,,Text only,3-4–3-5
+Wings: Structure and Primary Controls,Wing design suits the mission,,Text only,3-4–3-5
+Flap Designs and How They Differ,Plain flap,assets/images/faa/figure-3-8.webp,Original FAA figure,3-5–3-6
+Flap Designs and How They Differ,Split flap,,Text only,3-5–3-6
+Flap Designs and How They Differ,Slotted flap,,Text only,3-5–3-6
+Flap Designs and How They Differ,Fowler flap,,Text only,3-5–3-6
+Flap Designs and How They Differ,Slotted Fowler flap,,Text only,3-5–3-6
+Flap Designs and How They Differ,Flap settings must come from the airplane,,Text only,3-5–3-6
+Alternative Wings and Weight-Shift Control,Not every aircraft uses conventional ailerons,,Text only,3-5–3-6
+Alternative Wings and Weight-Shift Control,Wing shape follows intended use,assets/images/faa/figure-3-9.webp,Original FAA figure,3-5–3-6
+Alternative Wings and Weight-Shift Control,Weight shift changes control moments,,Text only,3-5–3-6
+Alternative Wings and Weight-Shift Control,Use aircraft-category-specific references,,Text only,3-5–3-6
+"The Tail: Elevator, Rudder, and Trim",Vertical stabilizer,assets/images/faa/figure-3-10.webp,Original FAA figure,3-6–3-7
+"The Tail: Elevator, Rudder, and Trim",Rudder,,Text only,3-6–3-7
+"The Tail: Elevator, Rudder, and Trim",Horizontal stabilizer,,Text only,3-6–3-7
+"The Tail: Elevator, Rudder, and Trim",Elevator,,Text only,3-6–3-7
+"The Tail: Elevator, Rudder, and Trim",Trim tabs,,Text only,3-6–3-7
+"The Tail: Elevator, Rudder, and Trim",Stabilator,assets/images/faa/figure-3-11.webp,Original FAA figure,3-6–3-7
+"The Tail: Elevator, Rudder, and Trim",Antiservo tab,,Text only,3-6–3-7
+Landing Gear and Ground Support,Landing gear supports ground operations,assets/images/faa/figure-3-12.webp,Original FAA figure,3-7
+Landing Gear and Ground Support,Tricycle landing gear,,Text only,3-7
+Landing Gear and Ground Support,Conventional or tailwheel gear,,Text only,3-7
+Landing Gear and Ground Support,Floats and skis,,Text only,3-7
+Landing Gear and Ground Support,Fixed versus retractable gear,,Text only,3-7
+"Powerplant, Propeller, and Engine Systems",Engine converts fuel energy into useful power,assets/images/faa/figure-3-13.webp,Original FAA figure,3-7–3-8
+"Powerplant, Propeller, and Engine Systems",Propeller blades create aerodynamic force,,Text only,3-7–3-8
+"Powerplant, Propeller, and Engine Systems",Blade twist,,Text only,3-7–3-8
+"Powerplant, Propeller, and Engine Systems",The cowling has functions beyond appearance,,Text only,3-7–3-8
+"Powerplant, Propeller, and Engine Systems",Powerplant may support other systems,,Text only,3-7–3-8
+"Powerplant, Propeller, and Engine Systems",Fuel and electrical systems are aircraft-specific,,Text only,3-7–3-8
+"Aircraft Structures: Truss, Monocoque, Semimonocoque",Truss-type structure,assets/images/faa/figure-3-5.webp,Original FAA figure,3-8–3-9
+"Aircraft Structures: Truss, Monocoque, Semimonocoque",Monocoque construction,,Text only,3-8–3-9
+"Aircraft Structures: Truss, Monocoque, Semimonocoque",Semimonocoque construction,assets/images/faa/figure-3-14.webp,Original FAA figure,3-8–3-9
+"Aircraft Structures: Truss, Monocoque, Semimonocoque",Bulkheads and formers,,Text only,3-8–3-9
+"Aircraft Structures: Truss, Monocoque, Semimonocoque",Stringers and longerons,,Text only,3-8–3-9
+"Aircraft Structures: Truss, Monocoque, Semimonocoque",Firewall,,Text only,3-8–3-9
+Composite Aircraft: What They Are,A composite combines materials,,Text only,3-9–3-10
+Composite Aircraft: What They Are,Fiberglass and carbon fiber,,Text only,3-9–3-10
+Composite Aircraft: What They Are,The role of the matrix,,Text only,3-9–3-10
+Composite Aircraft: What They Are,Strength-to-weight benefit,,Text only,3-9–3-10
+Composite Aircraft: What They Are,Reduced corrosion potential,,Text only,3-9–3-10
+Composite Aircraft: What They Are,Composite construction has a long history,assets/images/faa/figure-3-15.webp,Original FAA figure,3-9–3-10
+Composite Damage and Repair Concerns,Hidden damage is a central concern,,Text only,3-10–3-12
+Composite Damage and Repair Concerns,Impact energy changes the damage pattern,assets/images/faa/figure-3-16.webp,Original FAA figure,3-10–3-12
+Composite Damage and Repair Concerns,Delamination weakens the load path,,Text only,3-10–3-12
+Composite Damage and Repair Concerns,Not all composites conduct electricity like metal,assets/images/faa/figure-3-17.webp,Original FAA figure,3-10–3-12
+Composite Damage and Repair Concerns,Temperature and moisture may matter,,Text only,3-10–3-12
+Composite Damage and Repair Concerns,Repairs require appropriate methods,,Text only,3-10–3-12
+Understanding Aircraft Flight Instruments,Analog instrument presentation,assets/images/faa/figure-3-18.webp,Original FAA figure,3-12–3-13
+Understanding Aircraft Flight Instruments,Digital glass cockpit,,Text only,3-12–3-13
+Understanding Aircraft Flight Instruments,Three functional groups,,Text only,3-12–3-13
+Understanding Aircraft Flight Instruments,Cross-check is still required,,Text only,3-12–3-13
+Understanding Aircraft Flight Instruments,The installed system matters,,Text only,3-12–3-13
+Performance Instruments: What the Airplane Is Doing,Airspeed,assets/images/faa/figure-3-19.webp,Original FAA figure,3-13–3-14
+Performance Instruments: What the Airplane Is Doing,Altitude,,Text only,3-13–3-14
+Performance Instruments: What the Airplane Is Doing,Vertical speed,,Text only,3-13–3-14
+Performance Instruments: What the Airplane Is Doing,Heading and turn performance,,Text only,3-13–3-14
+Performance Instruments: What the Airplane Is Doing,Performance trends,,Text only,3-13–3-14
+Performance Instruments: What the Airplane Is Doing,Recognize grouped displays,,Text only,3-13–3-14
+Control Instruments: Attitude and Power,Attitude indicator,assets/images/faa/figure-3-20.webp,Original FAA figure,3-13–3-15
+Control Instruments: Attitude and Power,Power instruments,,Text only,3-13–3-15
+Control Instruments: Attitude and Power,Control versus performance,,Text only,3-13–3-15
+Control Instruments: Attitude and Power,Small adjustments,,Text only,3-13–3-15
+Control Instruments: Attitude and Power,Analog and glass representations,,Text only,3-13–3-15
+Navigation Displays and Course Guidance,Navigation instruments answer where to go,assets/images/faa/figure-3-21.webp,Original FAA figure,3-13–3-16
+Navigation Displays and Course Guidance,Course deviation,,Text only,3-13–3-16
+Navigation Displays and Course Guidance,VOR and other ground-based sources,,Text only,3-13–3-16
+Navigation Displays and Course Guidance,GPS and integrated navigation,,Text only,3-13–3-16
+Navigation Displays and Course Guidance,Glideslope information,assets/images/faa/figure-3-22.webp,Original FAA figure,3-13–3-16
+Navigation Displays and Course Guidance,Navigation data must be verified,,Text only,3-13–3-16

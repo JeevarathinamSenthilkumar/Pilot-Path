@@ -1,0 +1,840 @@
+[
+  {
+    "id": 8001,
+    "title": "How pilots use instruments",
+    "category": "FAA Chapter 8 • 8-1–8-2",
+    "pages": "8-1–8-2",
+    "concepts": [
+      {
+        "title": "Instruments are a cross-check, not separate facts",
+        "explain": "The same flight condition can be described by multiple independent indications. No single gauge tells you everything about aircraft performance or attitude.",
+        "apply": "If two readings disagree, confirm the situation with other instruments and aircraft behavior before deciding what failed.",
+        "image": null
+      },
+      {
+        "title": "Three instrument families",
+        "explain": "Pitot-static instruments measure air pressures, gyroscopic instruments measure or indicate attitude and direction, and magnetic instruments reference Earth’s magnetic field. Modern electronic displays may combine these data sources.",
+        "apply": "Identifying the sensing source helps you recognize common-mode failures.",
+        "image": null
+      },
+      {
+        "title": "Think in inputs and outputs",
+        "explain": "An indicator displays the result of pressure sensing, rotation, electrical computation, or magnetic sensing. A display can be healthy while the underlying input is wrong.",
+        "apply": "Troubleshoot the source, not just the face of the instrument.",
+        "image": null
+      },
+      {
+        "title": "Know your exact aircraft",
+        "explain": "The handbook explains common designs; individual aircraft have different displays, sensors, power sources, and failure annunciations.",
+        "apply": "Learn the limitations and checklists in your aircraft POH/AFM.",
+        "image": null
+      }
+    ],
+    "check": {
+      "question": "Two instruments disagree. What is the safest first principle?",
+      "options": [
+        "Trust whichever looks more modern",
+        "Cross-check independent sources and follow aircraft procedures",
+        "Ignore both immediately"
+      ],
+      "answer": 1,
+      "explanation": "Multiple indications and aircraft-specific guidance help distinguish failure from genuine flight changes."
+    },
+    "cover": null,
+    "section": "Flight Instruments"
+  },
+  {
+    "id": 8002,
+    "title": "Inside the pitot-static system",
+    "category": "FAA Chapter 8 • 8-2–8-3",
+    "pages": "8-2–8-3",
+    "concepts": [
+      {
+        "title": "Two pressure sources",
+        "explain": "The pitot tube senses total (impact) pressure while static ports sense ambient static pressure. The relationship between them supplies the airspeed indicator.",
+        "apply": "Pitot or static blockage can affect more than one indication.",
+        "image": {
+          "src": "assets/images/faa/figure-8-1.webp",
+          "caption": "FAA Pilot’s Handbook • Figure 8-1",
+          "official": true
+        }
+      },
+      {
+        "title": "Which instruments use static pressure?",
+        "explain": "An altimeter and vertical speed indicator rely on static pressure. The airspeed indicator uses pitot pressure and static pressure.",
+        "apply": "A static-system failure can mislead all three in different ways.",
+        "image": null
+      },
+      {
+        "title": "Drain holes and alternate static sources",
+        "explain": "A pitot tube may have a drain hole; some aircraft have alternate static air. Neither feature guarantees a correct indication under all conditions.",
+        "apply": "Identify and follow aircraft-specific alternate-static procedures.",
+        "image": null
+      },
+      {
+        "title": "Preflight inspection",
+        "explain": "Check exposed pitot openings, covers, static ports, and applicable heat systems before flight.",
+        "apply": "A forgotten cover or insect blockage can become a serious instrument problem.",
+        "image": null
+      }
+    ],
+    "check": {
+      "question": "Which instrument uses both pitot and static pressure?",
+      "options": [
+        "Altimeter",
+        "Vertical speed indicator",
+        "Airspeed indicator"
+      ],
+      "answer": 2,
+      "explanation": "The airspeed indicator compares pitot total pressure with static pressure."
+    },
+    "cover": "assets/images/faa/figure-8-1.webp",
+    "section": "Flight Instruments"
+  },
+  {
+    "id": 8003,
+    "title": "Altimeter: reading pressure as altitude",
+    "category": "FAA Chapter 8 • 8-3–8-4",
+    "pages": "8-3–8-4",
+    "concepts": [
+      {
+        "title": "How an aneroid altimeter works",
+        "explain": "A sealed, flexible aneroid wafer expands or contracts as ambient static pressure changes; linkages convert that movement into altitude indication.",
+        "apply": "An indicated altitude is a pressure-based inference, not a direct measurement of geometric height.",
+        "image": {
+          "src": "assets/images/faa/figure-8-2.webp",
+          "caption": "FAA Pilot’s Handbook • Figure 8-2",
+          "official": true
+        }
+      },
+      {
+        "title": "Barometric setting window",
+        "explain": "The barometric setting calibrates the indicated altitude for the local reference pressure. An incorrect setting produces an incorrect altitude indication.",
+        "apply": "Set and verify the applicable local altimeter setting as required.",
+        "image": null
+      },
+      {
+        "title": "Indicated, pressure, true, absolute, density altitude",
+        "explain": "Indicated altitude comes from the corrected altimeter; pressure altitude uses the standard-pressure reference; true altitude is above mean sea level; absolute altitude is above the surface; density altitude expresses air density as an equivalent standard altitude.",
+        "apply": "Each altitude answers a different flight-planning question.",
+        "image": null
+      },
+      {
+        "title": "Read the display carefully",
+        "explain": "Traditional multi-pointer instruments require careful interpretation; electronic tapes still depend on valid inputs.",
+        "apply": "Develop a deliberate altitude cross-check during climbs, descents, and approaches.",
+        "image": null
+      }
+    ],
+    "check": {
+      "question": "The altimeter shows 5,000 feet. Does that automatically mean you are 5,000 feet above terrain?",
+      "options": [
+        "Yes",
+        "No, terrain elevation and altimetry errors matter",
+        "Only when the engine is running"
+      ],
+      "answer": 1,
+      "explanation": "Indicated altitude is referenced to a pressure datum and is not terrain clearance."
+    },
+    "cover": "assets/images/faa/figure-8-2.webp",
+    "section": "Flight Instruments"
+  },
+  {
+    "id": 8004,
+    "title": "Pressure, temperature, and altimeter errors",
+    "category": "FAA Chapter 8 • 8-4–8-7",
+    "pages": "8-4–8-7",
+    "concepts": [
+      {
+        "title": "From high to low: look out below",
+        "explain": "Flying into lower pressure without resetting an altimeter makes true altitude lower than indicated altitude.",
+        "apply": "Refresh settings when required and use terrain clearance margins.",
+        "image": null
+      },
+      {
+        "title": "Cold air can reduce true altitude",
+        "explain": "Under colder-than-standard conditions, actual altitude above a pressure reference can be lower than indicated altitude. The handbook includes cold-temperature correction methods.",
+        "apply": "Follow published cold-temperature correction requirements when applicable, especially near terrain or obstacles.",
+        "image": {
+          "src": "assets/images/faa/figure-8-3.webp",
+          "caption": "FAA Pilot’s Handbook • Figure 8-3",
+          "official": true
+        }
+      },
+      {
+        "title": "What happens on a warm day?",
+        "explain": "Nonstandard temperature changes the spacing of atmospheric pressure levels. Warm conditions tend to make true altitude higher than indicated when referenced under comparable conditions.",
+        "apply": "Do not substitute a rule of thumb for required procedure or chart corrections.",
+        "image": null
+      },
+      {
+        "title": "Instrument and position errors",
+        "explain": "Aneroid mechanisms can have imperfections, and static ports can sense pressure altered by airframe airflow.",
+        "apply": "Compare instruments and apply aircraft-specific correction information when provided.",
+        "image": null
+      },
+      {
+        "title": "Separate altitude questions",
+        "explain": "A pressure-altitude calculation for performance is not the same as ensuring safe obstacle clearance.",
+        "apply": "Use the correct reference and correction method for the task at hand.",
+        "image": null
+      }
+    ],
+    "check": {
+      "question": "In colder-than-standard air, true altitude may be…",
+      "options": [
+        "Lower than indicated altitude",
+        "Always exactly indicated altitude",
+        "Impossible to estimate"
+      ],
+      "answer": 0,
+      "explanation": "Cold air compresses the vertical spacing of pressure levels."
+    },
+    "cover": "assets/images/faa/figure-8-3.webp",
+    "section": "Flight Instruments"
+  },
+  {
+    "id": 8005,
+    "title": "Vertical speed indicators",
+    "category": "FAA Chapter 8 • 8-7–8-8",
+    "pages": "8-7–8-8",
+    "concepts": [
+      {
+        "title": "How the VSI senses a climb",
+        "explain": "The VSI compares current static pressure with pressure changing more slowly through a calibrated restriction. That lag produces a vertical-speed indication.",
+        "apply": "A conventional VSI usually lags the aircraft’s actual climb or descent change.",
+        "image": {
+          "src": "assets/images/faa/figure-8-5.webp",
+          "caption": "FAA Pilot’s Handbook • Figure 8-5",
+          "official": true
+        }
+      },
+      {
+        "title": "What does zero mean?",
+        "explain": "Zero vertical speed means no indicated rate of pressure-altitude change, not necessarily zero movement over uneven terrain.",
+        "apply": "Keep altitude, terrain, and outside cues in the scan.",
+        "image": null
+      },
+      {
+        "title": "Instantaneous VSI",
+        "explain": "An IVSI uses acceleration sensing to reduce lag during rapid changes; it remains an instrument to cross-check.",
+        "apply": "In turbulence, respond with a disciplined scan rather than chasing needle movement.",
+        "image": null
+      },
+      {
+        "title": "Recognizing misleading indications",
+        "explain": "Static blockage can affect the VSI; a persistent unexpected reading should be checked against altitude change.",
+        "apply": "Use aircraft-specific abnormal instrument procedures.",
+        "image": null
+      }
+    ],
+    "check": {
+      "question": "Why might a conventional VSI initially lag after pitch changes?",
+      "options": [
+        "A calibrated pressure delay is part of its design",
+        "It uses GPS only",
+        "It only senses airspeed"
+      ],
+      "answer": 0,
+      "explanation": "A restricted pressure connection creates its response lag."
+    },
+    "cover": "assets/images/faa/figure-8-5.webp",
+    "section": "Flight Instruments"
+  },
+  {
+    "id": 8006,
+    "title": "Airspeed: what the indicator actually measures",
+    "category": "FAA Chapter 8 • 8-8–8-9",
+    "pages": "8-8–8-9",
+    "concepts": [
+      {
+        "title": "Differential pressure",
+        "explain": "The ASI responds to the difference between pitot total pressure and static pressure. It displays indicated airspeed, not directly true airspeed or ground speed.",
+        "apply": "Do not treat ground speed as a replacement for required airspeed cues.",
+        "image": {
+          "src": "assets/images/faa/figure-8-7.webp",
+          "caption": "FAA Pilot’s Handbook • Figure 8-7",
+          "official": true
+        }
+      },
+      {
+        "title": "IAS, CAS, EAS, TAS and groundspeed",
+        "explain": "Indicated is the displayed reading; calibrated corrects instrument/position error; equivalent accounts for compressibility; true adjusts for air density; groundspeed is aircraft motion over the ground.",
+        "apply": "Performance charts may specify exactly which type to use.",
+        "image": null
+      },
+      {
+        "title": "Why indicated airspeed matters",
+        "explain": "In a given configuration, aerodynamic forces and stall behavior relate closely to dynamic pressure, making indicated airspeed a useful pilot reference.",
+        "apply": "Use the aircraft’s published speed markings and limitations.",
+        "image": {
+          "src": "assets/images/faa/figure-8-8.webp",
+          "caption": "FAA Pilot’s Handbook • Figure 8-8",
+          "official": true
+        }
+      },
+      {
+        "title": "Colored arcs and radial lines",
+        "explain": "A typical ASI uses white and green arcs, a yellow caution range, and a red limit line; exact markings depend on the airplane.",
+        "apply": "Avoid applying another airplane’s speed markings to yours.",
+        "image": null
+      },
+      {
+        "title": "Airspeed on a windy day",
+        "explain": "A headwind can lower groundspeed with little change to indicated airspeed when other conditions are unchanged.",
+        "apply": "Plan arrival time from groundspeed, but fly approach targets with the prescribed airspeed.",
+        "image": null
+      }
+    ],
+    "check": {
+      "question": "A strong headwind appears. Which speed changes most directly?",
+      "options": [
+        "Groundspeed",
+        "The redline painted on the airspeed dial",
+        "Published stall speed in the same configuration"
+      ],
+      "answer": 0,
+      "explanation": "Headwind changes progress over the ground; indicated airspeed measures air-relative pressure difference."
+    },
+    "cover": "assets/images/faa/figure-8-7.webp",
+    "section": "Flight Instruments"
+  },
+  {
+    "id": 8007,
+    "title": "Pitot and static blockage diagnosis",
+    "category": "FAA Chapter 8 • 8-9–8-12",
+    "pages": "8-9–8-12",
+    "concepts": [
+      {
+        "title": "Blocked pitot opening with open drain",
+        "explain": "If ram air cannot enter but the drain is open, trapped pressure may escape and the ASI can read near zero.",
+        "apply": "Treat an unexpectedly low indicated airspeed as a possible sensing failure, not automatic proof of a stall.",
+        "image": {
+          "src": "assets/images/faa/figure-8-9.webp",
+          "caption": "FAA Pilot’s Handbook • Figure 8-9",
+          "official": true
+        }
+      },
+      {
+        "title": "Pitot and drain both blocked",
+        "explain": "If pitot pressure becomes trapped while static pressure remains normal, the ASI can behave like an altimeter: indicated speed may increase in a climb and decrease in a descent.",
+        "apply": "Cross-check pitch, power, attitude, and the aircraft-specific procedure.",
+        "image": {
+          "src": "assets/images/faa/figure-8-10.webp",
+          "caption": "FAA Pilot’s Handbook • Figure 8-10",
+          "official": true
+        }
+      },
+      {
+        "title": "Blocked static source",
+        "explain": "A blocked static source can freeze the altimeter and VSI and introduce airspeed errors with changing altitude.",
+        "apply": "Know the aircraft’s approved alternate static source and its correction guidance.",
+        "image": {
+          "src": "assets/images/faa/figure-8-11.webp",
+          "caption": "FAA Pilot’s Handbook • Figure 8-11",
+          "official": true
+        }
+      },
+      {
+        "title": "Pitot heat is not magic",
+        "explain": "Pitot heat can prevent or remove ice on the heated portion, but cannot correct every obstruction or other pressure-source problem.",
+        "apply": "Do not assume one switch fixes all misleading readings.",
+        "image": null
+      },
+      {
+        "title": "A practical troubleshooting mindset",
+        "explain": "Compare pressure-source instruments with independent attitude, engine performance and other valid indications; follow the airplane checklist.",
+        "apply": "Do not improvise exact power-and-pitch targets from a generic lesson.",
+        "image": null
+      }
+    ],
+    "check": {
+      "question": "If the static port freezes closed, which set of indications may be affected?",
+      "options": [
+        "Only engine rpm",
+        "Altimeter, VSI, and ASI",
+        "Only fuel quantity"
+      ],
+      "answer": 1,
+      "explanation": "All three pitot-static instruments use static pressure directly or in a pressure comparison."
+    },
+    "cover": "assets/images/faa/figure-8-9.webp",
+    "section": "Flight Instruments"
+  },
+  {
+    "id": 8008,
+    "title": "Electronic flight displays",
+    "category": "FAA Chapter 8 • 8-12–8-15",
+    "pages": "8-12–8-15",
+    "concepts": [
+      {
+        "title": "Primary flight display",
+        "explain": "A PFD brings attitude, airspeed, altitude, heading and supporting flight data into one coordinated view.",
+        "apply": "Scan for trends and warnings, not simply the central attitude display.",
+        "image": {
+          "src": "assets/images/faa/figure-8-12.webp",
+          "caption": "FAA Pilot’s Handbook • Figure 8-12",
+          "official": true
+        }
+      },
+      {
+        "title": "Multifunction display",
+        "explain": "An MFD commonly combines navigation maps, weather, traffic and system information, depending on installed equipment.",
+        "apply": "Configure it early and avoid excessive menu management at critical times.",
+        "image": {
+          "src": "assets/images/faa/figure-8-13.webp",
+          "caption": "FAA Pilot’s Handbook • Figure 8-13",
+          "official": true
+        }
+      },
+      {
+        "title": "Air data computer",
+        "explain": "An ADC computes flight data from sensor inputs. A clean digital display can still show wrong values when its source is bad.",
+        "apply": "Learn what failure flags indicate in your exact installation.",
+        "image": null
+      },
+      {
+        "title": "Trend vectors and tapes",
+        "explain": "Electronic tapes and trend indicators predict near-term changes based on present motion; they are aids, not guarantees.",
+        "apply": "Use trends to anticipate altitude and speed capture rather than making late corrections.",
+        "image": null
+      },
+      {
+        "title": "Display failure and reversion",
+        "explain": "Some aircraft have backup displays or reversionary modes; procedures and remaining capabilities depend on model.",
+        "apply": "Train on the aircraft’s actual failure modes.",
+        "image": null
+      }
+    ],
+    "check": {
+      "question": "A PFD shows incorrect airspeed due to a blocked source. What does this demonstrate?",
+      "options": [
+        "Digital displays are always correct",
+        "Displayed data still depend on valid sensors",
+        "An MFD fixes any problem"
+      ],
+      "answer": 1,
+      "explanation": "Digital presentation does not remove the need for valid pressure inputs."
+    },
+    "cover": "assets/images/faa/figure-8-12.webp",
+    "section": "Flight Instruments"
+  },
+  {
+    "id": 8009,
+    "title": "Gyroscopic principles",
+    "category": "FAA Chapter 8 • 8-15–8-17",
+    "pages": "8-15–8-17",
+    "concepts": [
+      {
+        "title": "Rigidity in space",
+        "explain": "A spinning gyroscope tends to maintain its orientation relative to space, permitting an attitude reference.",
+        "apply": "Understand why the aircraft appears to move against an instrument reference.",
+        "image": {
+          "src": "assets/images/faa/figure-8-18.webp",
+          "caption": "FAA Pilot’s Handbook • Figure 8-18",
+          "official": true
+        }
+      },
+      {
+        "title": "Precession",
+        "explain": "When a force acts on a spinning gyro, its response appears about 90 degrees later in the direction of rotation.",
+        "apply": "Some turn instruments use controlled precession intentionally.",
+        "image": {
+          "src": "assets/images/faa/figure-8-19.webp",
+          "caption": "FAA Pilot’s Handbook • Figure 8-19",
+          "official": true
+        }
+      },
+      {
+        "title": "Vacuum and electrical sources",
+        "explain": "Legacy instruments may be powered by a vacuum pump or an electric motor; newer electronic systems use solid-state sensors.",
+        "apply": "Knowing power sources helps spot correlated failures.",
+        "image": {
+          "src": "assets/images/faa/figure-8-20.webp",
+          "caption": "FAA Pilot’s Handbook • Figure 8-20",
+          "official": true
+        }
+      },
+      {
+        "title": "Limits and failures",
+        "explain": "Traditional gyro errors include friction, tumble limits and spin-down on power loss. Electronic devices have different limitations.",
+        "apply": "Look for loss-of-power flags and cross-check remaining independent indications.",
+        "image": null
+      }
+    ],
+    "check": {
+      "question": "Which gyro property helps an attitude indicator preserve a stable reference?",
+      "options": [
+        "Rigidity in space",
+        "Fuel pressure",
+        "Compass deviation"
+      ],
+      "answer": 0,
+      "explanation": "A spinning gyro resists changes to its spatial orientation."
+    },
+    "cover": "assets/images/faa/figure-8-18.webp",
+    "section": "Flight Instruments"
+  },
+  {
+    "id": 8010,
+    "title": "Turn coordinator and slip-skid ball",
+    "category": "FAA Chapter 8 • 8-17–8-18",
+    "pages": "8-17–8-18",
+    "concepts": [
+      {
+        "title": "Turn-rate indication",
+        "explain": "Turn instruments represent turn rate, not the exact bank angle required for every airspeed.",
+        "apply": "A standard-rate indication describes angular rate, not a universal bank angle.",
+        "image": {
+          "src": "assets/images/faa/figure-8-21.webp",
+          "caption": "FAA Pilot’s Handbook • Figure 8-21",
+          "official": true
+        }
+      },
+      {
+        "title": "Turn coordinator vs turn-and-slip",
+        "explain": "Depending on instrument design, a turn coordinator senses roll and yaw components; a basic turn-and-slip indicator primarily senses rate of turn.",
+        "apply": "Read the instrument type installed in your aircraft.",
+        "image": null
+      },
+      {
+        "title": "The inclinometer ball",
+        "explain": "The ball responds to apparent forces; centered generally indicates coordinated flight. Off-center indicates slip or skid.",
+        "apply": "Use smooth, appropriate rudder to coordinate according to flight instruction.",
+        "image": null
+      },
+      {
+        "title": "Cross-checking turns",
+        "explain": "Bank angle from the attitude indicator and turn rate from the coordinator can disagree due to speed or instrument error.",
+        "apply": "Use a complete instrument scan rather than treating them as duplicates.",
+        "image": null
+      }
+    ],
+    "check": {
+      "question": "Does a turn coordinator directly give the bank angle of the airplane?",
+      "options": [
+        "Yes, precisely at all airspeeds",
+        "No, it indicates turning motion and rate",
+        "It indicates oil temperature"
+      ],
+      "answer": 1,
+      "explanation": "Turn rate and bank angle are related but not interchangeable."
+    },
+    "cover": "assets/images/faa/figure-8-21.webp",
+    "section": "Flight Instruments"
+  },
+  {
+    "id": 8011,
+    "title": "Attitude indicator",
+    "category": "FAA Chapter 8 • 8-18–8-19",
+    "pages": "8-18–8-19",
+    "concepts": [
+      {
+        "title": "Aircraft and artificial horizon",
+        "explain": "The attitude indicator displays pitch and bank relative to an artificial horizon reference.",
+        "apply": "It is a primary orientation aid, especially without a natural horizon.",
+        "image": {
+          "src": "assets/images/faa/figure-8-23.webp",
+          "caption": "FAA Pilot’s Handbook • Figure 8-23",
+          "official": true
+        }
+      },
+      {
+        "title": "Pitch reference",
+        "explain": "The miniature aircraft symbol and horizon indicate nose-up or nose-down attitude relative to a horizon reference, not climb rate by themselves.",
+        "apply": "An airplane can be pitched up and still descend if energy is insufficient.",
+        "image": null
+      },
+      {
+        "title": "Bank reference",
+        "explain": "Bank marks help interpret roll angle; the marked degrees and limits depend on display and instrument.",
+        "apply": "Keep the turn coordinated using other instruments and flight cues.",
+        "image": null
+      },
+      {
+        "title": "Unusual attitudes and instrument limits",
+        "explain": "Some legacy attitude indicators have pitch/bank limitations or may show erroneous behavior after extreme maneuvers.",
+        "apply": "Apply training and use independent sources when suspecting an instrument failure.",
+        "image": null
+      },
+      {
+        "title": "PFD attitude information",
+        "explain": "Electronic attitude generally comes from AHRS rather than a vacuum-driven gyro.",
+        "apply": "An electronic presentation still needs valid sensors and power.",
+        "image": null
+      }
+    ],
+    "check": {
+      "question": "Can a nose-up attitude alone prove the aircraft is climbing?",
+      "options": [
+        "No; check altitude and vertical-speed trends",
+        "Always",
+        "Only over water"
+      ],
+      "answer": 0,
+      "explanation": "Attitude describes orientation, while performance depends on energy and flight condition."
+    },
+    "cover": "assets/images/faa/figure-8-23.webp",
+    "section": "Flight Instruments"
+  },
+  {
+    "id": 8012,
+    "title": "Heading indicators and AHRS",
+    "category": "FAA Chapter 8 • 8-19–8-22",
+    "pages": "8-19–8-22",
+    "concepts": [
+      {
+        "title": "Directional gyro",
+        "explain": "A heading indicator displays a stable directional reference but can drift and needs periodic correction against a valid compass reference when not slaved.",
+        "apply": "Uncorrected drift can make navigational headings inaccurate.",
+        "image": null
+      },
+      {
+        "title": "Precession and drift",
+        "explain": "Mechanical and apparent gyro drift arise from instrument behavior and Earth rotation; the pilot monitors alignment.",
+        "apply": "Compare a conventional heading indicator periodically with the magnetic compass.",
+        "image": null
+      },
+      {
+        "title": "AHRS",
+        "explain": "Attitude and heading reference systems combine sensors and processing to provide electronic orientation and heading outputs.",
+        "apply": "Know the system’s alignment procedures and warning indications.",
+        "image": {
+          "src": "assets/images/faa/figure-8-26.webp",
+          "caption": "FAA Pilot’s Handbook • Figure 8-26",
+          "official": true
+        }
+      },
+      {
+        "title": "Remote magnetic sensors",
+        "explain": "Flux detectors can supply heading references to slaved compass systems while isolating sensors from cockpit magnetic interference.",
+        "apply": "A heading indication remains vulnerable to sensor and system errors.",
+        "image": null
+      },
+      {
+        "title": "HSI and RMI",
+        "explain": "A horizontal situation indicator combines heading with navigation guidance; radio magnetic indicators integrate bearing information and heading.",
+        "apply": "Learn the geometry before relying on automation to interpret needles.",
+        "image": null
+      }
+    ],
+    "check": {
+      "question": "A non-slaved directional gyro can gradually disagree with the compass because…",
+      "options": [
+        "It drifts over time",
+        "A compass requires fuel",
+        "The altimeter controls heading"
+      ],
+      "answer": 0,
+      "explanation": "A traditional heading gyro requires periodic alignment."
+    },
+    "cover": "assets/images/faa/figure-8-26.webp",
+    "section": "Flight Instruments"
+  },
+  {
+    "id": 8013,
+    "title": "Angle-of-attack indication",
+    "category": "FAA Chapter 8 • 8-22–8-23",
+    "pages": "8-22–8-23",
+    "concepts": [
+      {
+        "title": "What an AOA indicator tells you",
+        "explain": "An AOA system estimates the wing’s angle to the relative wind and can provide a visual or aural margin-to-stall cue.",
+        "apply": "AOA can offer information independent of airspeed alone.",
+        "image": {
+          "src": "assets/images/faa/figure-8-31.webp",
+          "caption": "FAA Pilot’s Handbook • Figure 8-31",
+          "official": true
+        }
+      },
+      {
+        "title": "Critical AOA and stalls",
+        "explain": "For a given wing configuration, a stall occurs when critical angle of attack is exceeded, regardless of pitch angle or indicated airspeed.",
+        "apply": "Do not assume a stall warning only matters at a particular airspeed.",
+        "image": null
+      },
+      {
+        "title": "Installation and limitations",
+        "explain": "AOA systems vary in calibration, display style, and whether they are certified as primary or supplemental equipment.",
+        "apply": "Follow the aircraft documentation for any AOA instrument.",
+        "image": null
+      },
+      {
+        "title": "AOA does not replace aircraft control",
+        "explain": "An indicator gives another cue, but the pilot must keep attention on energy, attitude, coordination and terrain.",
+        "apply": "Use it as part of a broader scan.",
+        "image": null
+      }
+    ],
+    "check": {
+      "question": "A stall is associated most directly with…",
+      "options": [
+        "Exceeding critical angle of attack",
+        "One exact pitch angle",
+        "A particular compass heading"
+      ],
+      "answer": 0,
+      "explanation": "Critical angle of attack determines wing stall."
+    },
+    "cover": "assets/images/faa/figure-8-31.webp",
+    "section": "Flight Instruments"
+  },
+  {
+    "id": 8014,
+    "title": "Magnetic compass fundamentals",
+    "category": "FAA Chapter 8 • 8-23–8-24",
+    "pages": "8-23–8-24",
+    "concepts": [
+      {
+        "title": "The magnet aligns with magnetic field",
+        "explain": "A magnetic compass uses magnetized elements and a damped card to indicate direction relative to Earth’s magnetic field.",
+        "apply": "It operates independently of many electrical and vacuum system failures.",
+        "image": {
+          "src": "assets/images/faa/figure-8-32.webp",
+          "caption": "FAA Pilot’s Handbook • Figure 8-32",
+          "official": true
+        }
+      },
+      {
+        "title": "Magnetic versus true north",
+        "explain": "Variation is the local angle between geographic north and magnetic north. Isogonic lines on charts connect points with similar variation.",
+        "apply": "Apply the published variation convention correctly in navigation.",
+        "image": {
+          "src": "assets/images/faa/figure-8-33.webp",
+          "caption": "FAA Pilot’s Handbook • Figure 8-33",
+          "official": true
+        }
+      },
+      {
+        "title": "Deviation",
+        "explain": "Local magnetic interference from an aircraft can deflect the compass, producing heading-dependent error.",
+        "apply": "Use the aircraft’s deviation card when required.",
+        "image": null
+      },
+      {
+        "title": "Liquid damping and oscillation",
+        "explain": "Compass housing fluid damps movement, but the compass still has turning and acceleration errors.",
+        "apply": "Read it in appropriate flight conditions rather than expecting perfect stability.",
+        "image": null
+      }
+    ],
+    "check": {
+      "question": "What is magnetic variation?",
+      "options": [
+        "The angular difference between true and magnetic north",
+        "Engine ignition timing",
+        "Airspeed calibration"
+      ],
+      "answer": 0,
+      "explanation": "Variation reflects the difference between geographic and magnetic north."
+    },
+    "cover": "assets/images/faa/figure-8-32.webp",
+    "section": "Flight Instruments"
+  },
+  {
+    "id": 8015,
+    "title": "Compass turning and acceleration errors",
+    "category": "FAA Chapter 8 • 8-24–8-27",
+    "pages": "8-24–8-27",
+    "concepts": [
+      {
+        "title": "Northerly turning error",
+        "explain": "In the Northern Hemisphere, magnetic-compass turning indications can lag or lead differently when turning through northern or southern headings.",
+        "apply": "Use appropriate techniques and do not blindly chase a swinging compass.",
+        "image": {
+          "src": "assets/images/faa/figure-8-36.webp",
+          "caption": "FAA Pilot’s Handbook • Figure 8-36",
+          "official": true
+        }
+      },
+      {
+        "title": "UNOS memory aid",
+        "explain": "When turning to a northerly heading in the Northern Hemisphere, undershoot; when turning to a southerly heading, overshoot. The amount is latitude-dependent.",
+        "apply": "Treat the mnemonic as a teaching aid; apply training and verified navigation indications.",
+        "image": null
+      },
+      {
+        "title": "Acceleration error",
+        "explain": "On east/west headings in the Northern Hemisphere, acceleration may produce an apparent turn toward north and deceleration toward south (ANDS).",
+        "apply": "Do not interpret every compass deflection during speed changes as a real change of heading.",
+        "image": {
+          "src": "assets/images/faa/figure-8-38.webp",
+          "caption": "FAA Pilot’s Handbook • Figure 8-38",
+          "official": true
+        }
+      },
+      {
+        "title": "Compass errors vary",
+        "explain": "Magnetic dip, latitude, heading, turbulence and installation determine how conspicuous errors become.",
+        "apply": "Cross-check direction with suitable independent instruments.",
+        "image": null
+      },
+      {
+        "title": "Vertical card compasses",
+        "explain": "Some designs present magnetic heading in a more readable arrangement, but they still depend on magnetics.",
+        "apply": "Know the installed compass type and its limitations.",
+        "image": null
+      }
+    ],
+    "check": {
+      "question": "In the Northern Hemisphere, when accelerating on an east or west heading, a magnetic compass may falsely indicate a turn toward…",
+      "options": [
+        "North",
+        "South",
+        "The nearest airport"
+      ],
+      "answer": 0,
+      "explanation": "This is the acceleration part of the ANDS mnemonic."
+    },
+    "cover": "assets/images/faa/figure-8-36.webp",
+    "section": "Flight Instruments"
+  },
+  {
+    "id": 8016,
+    "title": "Outside air temperature and interpreting the panel",
+    "category": "FAA Chapter 8 • 8-27–8-28",
+    "pages": "8-27–8-28",
+    "concepts": [
+      {
+        "title": "OAT and temperature sensing",
+        "explain": "Outside air temperature indicators supply information used in performance planning, icing awareness and air data calculations.",
+        "apply": "Check instrument limitations and installation-specific corrections.",
+        "image": {
+          "src": "assets/images/faa/figure-8-39.webp",
+          "caption": "FAA Pilot’s Handbook • Figure 8-39",
+          "official": true
+        }
+      },
+      {
+        "title": "A panel is a system of evidence",
+        "explain": "Airspeed, altitude, attitude, heading and vertical speed each measure different quantities. Agreement matters more than a single reassuring number.",
+        "apply": "When something fails, rely on trained partial-panel techniques and published procedures.",
+        "image": null
+      },
+      {
+        "title": "Recognize the first failure cue",
+        "explain": "Unexpected trends, flags, red X annunciations, and disagreeing backups warrant attention.",
+        "apply": "Prioritize aircraft control, instrument cross-check and checklists.",
+        "image": null
+      },
+      {
+        "title": "Learn in the aircraft",
+        "explain": "Panel equipment varies dramatically from a basic six-pack trainer to an integrated glass cockpit.",
+        "apply": "Make an instrument-source map for your specific airplane and practice under supervision.",
+        "image": null
+      }
+    ],
+    "check": {
+      "question": "A digital red-X failure flag appears. What should the pilot do?",
+      "options": [
+        "Assume the measurement is valid",
+        "Consult other valid indications and use the aircraft procedure",
+        "Tap it until it disappears"
+      ],
+      "answer": 1,
+      "explanation": "A failure annunciation requires using independent references and the appropriate checklist."
+    },
+    "cover": "assets/images/faa/figure-8-39.webp",
+    "section": "Flight Instruments"
+  }
+]

@@ -1,0 +1,993 @@
+[
+  {
+    "id": 300,
+    "title": "What Makes an Aircraft Airworthy",
+    "category": "FAA Chapter 3 • 3-1–3-2",
+    "pages": "3-1–3-2",
+    "concepts": [
+      {
+        "title": "What aircraft construction covers",
+        "explain": "Chapter 3 introduces how aircraft are designed and built, how their structures work, and how basic components and flight instruments support controlled flight. Detailed aerodynamics follows in later chapters.",
+        "apply": "When studying a new airplane, identify the structure, controls, powerplant, landing gear, and displays before focusing on performance.",
+        "image": null
+      },
+      {
+        "title": "Certification starts with a design standard",
+        "explain": "The FAA certifies aviation products—aircraft, engines, and propellers—against applicable airworthiness standards in Title 14 of the Code of Federal Regulations. Different products and categories have different standards.",
+        "apply": "An airplane and a transport-category rotorcraft do not use one identical set of design requirements.",
+        "image": null
+      },
+      {
+        "title": "A type certificate applies to a product design",
+        "explain": "When a design meets its applicable standards, the FAA can issue a type certificate. The Type Certificate Data Sheet (TCDS) records important approved design details and limitations.",
+        "apply": "An aircraft model's approved engine or propeller configuration should agree with its certification documentation.",
+        "image": null
+      },
+      {
+        "title": "Production approval is a separate step",
+        "explain": "Design approval does not itself mean a manufacturer may produce unlimited aircraft without oversight. Production approval addresses manufacturing controls and conformity to the approved design.",
+        "apply": "A properly built replacement component must match the approved requirements, not simply look similar.",
+        "image": null
+      },
+      {
+        "title": "An airworthiness certificate is for an individual aircraft",
+        "explain": "An individual aircraft must be eligible for an airworthiness certificate; its continuing condition and maintenance are separate from the original design's type certification.",
+        "apply": "A certified model can still be unairworthy today because of damage, overdue inspection, or an unresolved defect.",
+        "image": null
+      },
+      {
+        "title": "Certification and maintenance are different responsibilities",
+        "explain": "The initial approval establishes a design basis. The aircraft must then be maintained and operated in accordance with applicable limitations and rules.",
+        "apply": "During preflight, the pilot cannot assume that a manufacturer's certified design guarantees that this particular airplane is ready to fly.",
+        "image": null
+      }
+    ],
+    "check": {
+      "question": "Which statement is most accurate?",
+      "options": [
+        "Every aircraft of a certified model is automatically airworthy",
+        "A type certificate approves a design; an individual aircraft must still be airworthy",
+        "Production approval makes aircraft maintenance unnecessary"
+      ],
+      "answer": 1,
+      "explanation": "FAA design certification and the individual aircraft’s continuing airworthiness are distinct."
+    },
+    "cover": null,
+    "section": 1
+  },
+  {
+    "id": 301,
+    "title": "The Four Forces of Flight",
+    "category": "FAA Chapter 3 • 3-2–3-3",
+    "pages": "3-2–3-3",
+    "concepts": [
+      {
+        "title": "Thrust",
+        "explain": "The propeller or other propulsion system creates thrust, a force that generally moves the aircraft forward. Thrust is not the same thing as lift.",
+        "apply": "Increasing engine power can change the airplane's energy state, but a safe climb also requires managing attitude and airspeed.",
+        "image": {
+          "src": "assets/images/faa/figure-3-1.webp",
+          "caption": "FAA Pilot’s Handbook · Figure 3-1 — cropped from the original handbook",
+          "official": true
+        }
+      },
+      {
+        "title": "Drag",
+        "explain": "Drag is aerodynamic resistance to motion through the air. It opposes an aircraft's movement and changes with configuration and speed.",
+        "apply": "Extending flaps or landing gear can increase drag, depending on design and configuration.",
+        "image": null
+      },
+      {
+        "title": "Weight",
+        "explain": "Weight is the gravitational force acting on the airplane, including the aircraft, occupants, fuel, and baggage.",
+        "apply": "Loading more baggage changes weight and may affect takeoff performance and handling.",
+        "image": null
+      },
+      {
+        "title": "Lift",
+        "explain": "Lift is an aerodynamic force produced by airflow over lifting surfaces and is oriented perpendicular to the relative flight path. It generally counteracts weight in steady, level flight.",
+        "apply": "A wing still produces aerodynamic forces during a descent; do not equate “descending” with “no lift.”",
+        "image": null
+      },
+      {
+        "title": "Forces change with the maneuver",
+        "explain": "The familiar force diagram illustrates four forces, but their magnitudes need not be equal during acceleration, a climb, or a descent.",
+        "apply": "A plane accelerating on takeoff is not in the same force balance as one flying straight and level at constant speed.",
+        "image": null
+      }
+    ],
+    "check": {
+      "question": "In straight, unaccelerated level flight, which force generally opposes weight?",
+      "options": [
+        "Drag",
+        "Lift",
+        "Thrust"
+      ],
+      "answer": 1,
+      "explanation": "Lift acts generally upward in level flight and balances weight when vertical acceleration is zero."
+    },
+    "cover": "assets/images/faa/figure-3-1.webp",
+    "section": 2
+  },
+  {
+    "id": 302,
+    "title": "Three Axes and Aircraft Motion",
+    "category": "FAA Chapter 3 • 3-3",
+    "pages": "3-3",
+    "concepts": [
+      {
+        "title": "Longitudinal axis: roll",
+        "explain": "The longitudinal axis runs from nose to tail through the center of gravity. Rotation about it is roll: one wing rises while the other lowers.",
+        "apply": "An aileron input banks the airplane by creating a rolling moment.",
+        "image": {
+          "src": "assets/images/faa/figure-3-2.webp",
+          "caption": "FAA Pilot’s Handbook · Figure 3-2 — cropped from the original handbook",
+          "official": true
+        }
+      },
+      {
+        "title": "Lateral axis: pitch",
+        "explain": "The lateral axis runs across the wings. Rotation about it is pitch: the nose rises or falls.",
+        "apply": "The elevator is the primary pitch control on many airplanes.",
+        "image": null
+      },
+      {
+        "title": "Vertical axis: yaw",
+        "explain": "The vertical axis runs vertically through the aircraft. Rotation about it moves the nose left or right relative to the flight path.",
+        "apply": "Rudder input is used to control yaw, including adverse yaw when coordinating turns.",
+        "image": null
+      },
+      {
+        "title": "The center of gravity is the reference",
+        "explain": "The three principal rotational axes intersect near the aircraft's center of gravity (CG), the point used to represent its weight distribution.",
+        "apply": "If loading moves the CG, stability and control characteristics can change even though the pilot uses the same controls.",
+        "image": null
+      },
+      {
+        "title": "Motions can happen together",
+        "explain": "During a coordinated maneuver, pitch, roll, and yaw can occur in combination; the axes are useful ways to understand each contribution.",
+        "apply": "A properly coordinated turn involves bank and changes in heading; it is not merely turning the nose with rudder.",
+        "image": null
+      }
+    ],
+    "check": {
+      "question": "Which axis does an airplane rotate around when it rolls?",
+      "options": [
+        "Vertical",
+        "Lateral",
+        "Longitudinal"
+      ],
+      "answer": 2,
+      "explanation": "Roll occurs about the nose-to-tail, longitudinal axis."
+    },
+    "cover": "assets/images/faa/figure-3-2.webp",
+    "section": 3
+  },
+  {
+    "id": 303,
+    "title": "Center of Gravity and Balance",
+    "category": "FAA Chapter 3 • 3-3–3-4",
+    "pages": "3-3–3-4",
+    "concepts": [
+      {
+        "title": "CG is the balance location",
+        "explain": "The center of gravity is the point where the combined aircraft weight can be considered to act. Fuel, baggage, passengers, and equipment all influence it.",
+        "apply": "Moving baggage aft may move the CG even if total weight remains unchanged.",
+        "image": null
+      },
+      {
+        "title": "Why an excessively forward CG matters",
+        "explain": "A forward CG can increase the required tail-down force and may leave insufficient elevator authority to raise the nose for landing.",
+        "apply": "An airplane can be under maximum gross weight yet outside its forward CG limit.",
+        "image": {
+          "src": "assets/images/faa/figure-3-3.webp",
+          "caption": "FAA Pilot’s Handbook · Figure 3-3 — cropped from the original handbook",
+          "official": true
+        }
+      },
+      {
+        "title": "Why an excessively aft CG matters",
+        "explain": "An aft CG can reduce stability and may leave insufficient nose-down elevator authority for stall recovery.",
+        "apply": "A pilot should never treat an aft CG as a harmless way to improve cruise efficiency.",
+        "image": null
+      },
+      {
+        "title": "Both weight and balance matter",
+        "explain": "Operating inside the allowable CG envelope matters as much as staying below the airplane's maximum permitted weight. The specific limits are aircraft-dependent.",
+        "apply": "Check the aircraft's current weight-and-balance calculation using its approved data.",
+        "image": null
+      },
+      {
+        "title": "Weight can change during flight",
+        "explain": "Fuel consumption can change both weight and CG; the effect depends on tank location and aircraft design.",
+        "apply": "A legal CG at takeoff does not automatically guarantee the CG remains within limits throughout the planned flight.",
+        "image": null
+      }
+    ],
+    "check": {
+      "question": "An airplane is below maximum weight but has its CG beyond the aft limit. Is it acceptable?",
+      "options": [
+        "Yes, weight is the only limit",
+        "No, the CG must also be in the approved envelope",
+        "Only if the flight is short"
+      ],
+      "answer": 1,
+      "explanation": "Weight and CG limits are independent requirements."
+    },
+    "cover": "assets/images/faa/figure-3-3.webp",
+    "section": 4
+  },
+  {
+    "id": 304,
+    "title": "Identify the Major Airplane Components",
+    "category": "FAA Chapter 3 • 3-3–3-5",
+    "pages": "3-3–3-5",
+    "concepts": [
+      {
+        "title": "Fuselage",
+        "explain": "The fuselage is the main body that houses crew, passengers, cargo, and equipment and joins other major components.",
+        "apply": "Identify where the cabin, firewall, wing attachments, and tail assembly connect on your training airplane.",
+        "image": {
+          "src": "assets/images/faa/figure-3-4.webp",
+          "caption": "FAA Pilot’s Handbook · Figure 3-4 — cropped from the original handbook",
+          "official": true
+        }
+      },
+      {
+        "title": "Wings",
+        "explain": "Wings are the principal lifting surfaces of conventional airplanes. Their shape and structural design vary with the intended mission.",
+        "apply": "A high-wing trainer and a low-wing cruiser share the same basic lift role but differ in arrangement.",
+        "image": null
+      },
+      {
+        "title": "Empennage",
+        "explain": "The tail assembly generally includes stabilizing surfaces and movable flight controls that contribute to pitch and yaw control.",
+        "apply": "Point out the horizontal stabilizer, vertical stabilizer, elevator, and rudder during a walkaround.",
+        "image": null
+      },
+      {
+        "title": "Powerplant",
+        "explain": "On many small propeller airplanes, the powerplant includes the engine and propeller, supplying thrust and auxiliary power as equipped.",
+        "apply": "Recognize the engine cowling, propeller, exhaust, air intakes, and applicable inspection items.",
+        "image": null
+      },
+      {
+        "title": "Landing gear",
+        "explain": "Landing gear supports the aircraft while on the ground and during takeoff and landing. Configurations differ by mission and design.",
+        "apply": "Know whether your aircraft uses a nosewheel or tailwheel and the normal ground-steering arrangement.",
+        "image": null
+      },
+      {
+        "title": "Monoplane and biplane",
+        "explain": "A monoplane uses one principal wing plane, whereas a biplane uses two stacked wing planes. This describes wing arrangement, not necessarily speed or flight capability.",
+        "apply": "Compare a familiar trainer with an early two-wing aircraft.",
+        "image": {
+          "src": "assets/images/faa/figure-3-6.webp",
+          "caption": "FAA Pilot’s Handbook · Figure 3-6 — cropped from the original handbook",
+          "official": true
+        }
+      }
+    ],
+    "check": null,
+    "cover": "assets/images/faa/figure-3-4.webp",
+    "section": 5
+  },
+  {
+    "id": 305,
+    "title": "Wings: Structure and Primary Controls",
+    "category": "FAA Chapter 3 • 3-4–3-5",
+    "pages": "3-4–3-5",
+    "concepts": [
+      {
+        "title": "Spars carry major wing loads",
+        "explain": "A spar is a principal structural member running spanwise, resisting significant wing loads.",
+        "apply": "Do not confuse the thin visible skin with all the internal structure supporting the wing.",
+        "image": {
+          "src": "assets/images/faa/figure-3-7.webp",
+          "caption": "FAA Pilot’s Handbook · Figure 3-7 — cropped from the original handbook",
+          "official": true
+        }
+      },
+      {
+        "title": "Ribs shape the airfoil",
+        "explain": "Ribs help maintain the wing's cross-sectional shape and transfer loads to other structural members.",
+        "apply": "A maintenance cutaway makes clear why wing construction is more than an outer shell.",
+        "image": null
+      },
+      {
+        "title": "Stringers and skin",
+        "explain": "Stringers help stiffen the structure; wing skin creates the aerodynamic surface and can carry structural load in stressed-skin designs.",
+        "apply": "Damage to a stressed panel can have implications beyond cosmetic appearance.",
+        "image": null
+      },
+      {
+        "title": "Ailerons control roll",
+        "explain": "Ailerons normally move in opposite directions on the wings to create a rolling moment.",
+        "apply": "When you move the yoke left, observe the ailerons and verify the correct response during preflight.",
+        "image": null
+      },
+      {
+        "title": "Flaps change wing characteristics",
+        "explain": "Flaps generally extend together and change the wing's lift and drag characteristics for takeoff or landing. Their exact effect depends on design and setting.",
+        "apply": "Use the aircraft's POH/AFM for permitted flap settings and performance changes rather than assuming all designs behave identically.",
+        "image": null
+      },
+      {
+        "title": "Wing design suits the mission",
+        "explain": "Wing planform, arrangement, and structural choices reflect intended operation, balancing aerodynamic and practical tradeoffs.",
+        "apply": "A heavy transport wing and a simple trainer wing are designed for different requirements.",
+        "image": null
+      }
+    ],
+    "check": null,
+    "cover": "assets/images/faa/figure-3-7.webp",
+    "section": 6
+  },
+  {
+    "id": 306,
+    "title": "Flap Designs and How They Differ",
+    "category": "FAA Chapter 3 • 3-5–3-6",
+    "pages": "3-5–3-6",
+    "concepts": [
+      {
+        "title": "Plain flap",
+        "explain": "A plain flap hinges downward from the trailing edge and changes wing curvature, increasing lift and drag depending on deflection.",
+        "apply": "Identify the basic hinged motion in the FAA figure.",
+        "image": {
+          "src": "assets/images/faa/figure-3-8.webp",
+          "caption": "FAA Pilot’s Handbook · Figure 3-8 — cropped from the original handbook",
+          "official": true
+        }
+      },
+      {
+        "title": "Split flap",
+        "explain": "A split flap lowers from the bottom surface while the upper wing contour remains more continuous, typically producing considerable drag.",
+        "apply": "Recognize why flaps are not simply interchangeable between airplane types.",
+        "image": null
+      },
+      {
+        "title": "Slotted flap",
+        "explain": "A slot allows high-energy air to flow toward the upper surface, helping delay flow separation at higher flap deflections.",
+        "apply": "The visible gap in a slotted flap has an aerodynamic purpose.",
+        "image": null
+      },
+      {
+        "title": "Fowler flap",
+        "explain": "A Fowler flap moves aft as well as downward, increasing effective wing area and camber.",
+        "apply": "Compare its travel with the simpler hinge action of a plain flap.",
+        "image": null
+      },
+      {
+        "title": "Slotted Fowler flap",
+        "explain": "A design can combine aft travel with slots to achieve greater lift capability in a high-lift configuration.",
+        "apply": "Notice the multi-part mechanism on some transport airplanes.",
+        "image": null
+      },
+      {
+        "title": "Flap settings must come from the airplane",
+        "explain": "The handbook illustrates typical types, not universally safe deployment speeds or configurations.",
+        "apply": "Always check the flap operating range and procedures in your airplane's POH/AFM.",
+        "image": null
+      }
+    ],
+    "check": {
+      "question": "Which flap moves rearward, increasing effective wing area as it deploys?",
+      "options": [
+        "Fowler flap",
+        "Plain flap only",
+        "Split flap only"
+      ],
+      "answer": 0,
+      "explanation": "A Fowler flap travels aft as it deploys, unlike a simple hinged plain flap."
+    },
+    "cover": "assets/images/faa/figure-3-8.webp",
+    "section": 7
+  },
+  {
+    "id": 307,
+    "title": "Alternative Wings and Weight-Shift Control",
+    "category": "FAA Chapter 3 • 3-5–3-6",
+    "pages": "3-5–3-6",
+    "concepts": [
+      {
+        "title": "Not every aircraft uses conventional ailerons",
+        "explain": "The handbook introduces different wing arrangements, including weight-shift-control aircraft that maneuver by changing the suspended mass position relative to the wing.",
+        "apply": "Avoid assuming every winged aircraft has the same control inputs as a typical Cessna.",
+        "image": null
+      },
+      {
+        "title": "Wing shape follows intended use",
+        "explain": "A wing's sweep, flexibility, and structural arrangement reflect the aircraft's aerodynamic and control requirements.",
+        "apply": "Compare a flexible weight-shift wing with a rigid airplane wing.",
+        "image": {
+          "src": "assets/images/faa/figure-3-9.webp",
+          "caption": "FAA Pilot’s Handbook · Figure 3-9 — cropped from the original handbook",
+          "official": true
+        }
+      },
+      {
+        "title": "Weight shift changes control moments",
+        "explain": "On a weight-shift aircraft, the pilot changes the relative position of the carriage and wing to command changes in flight path and attitude.",
+        "apply": "This is a different control mechanism, not just a different grip on an ordinary aileron system.",
+        "image": null
+      },
+      {
+        "title": "Use aircraft-category-specific references",
+        "explain": "The Chapter 3 overview is not a complete operating manual for weight-shift aircraft.",
+        "apply": "Follow the relevant FAA handbook and approved documentation for your aircraft category.",
+        "image": null
+      }
+    ],
+    "check": null,
+    "cover": "assets/images/faa/figure-3-9.webp",
+    "section": 8
+  },
+  {
+    "id": 308,
+    "title": "The Tail: Elevator, Rudder, and Trim",
+    "category": "FAA Chapter 3 • 3-6–3-7",
+    "pages": "3-6–3-7",
+    "concepts": [
+      {
+        "title": "Vertical stabilizer",
+        "explain": "The fixed vertical surface helps provide directional stability.",
+        "apply": "Locate it before checking the attached rudder.",
+        "image": {
+          "src": "assets/images/faa/figure-3-10.webp",
+          "caption": "FAA Pilot’s Handbook · Figure 3-10 — cropped from the original handbook",
+          "official": true
+        }
+      },
+      {
+        "title": "Rudder",
+        "explain": "The rudder generally moves side-to-side on the vertical stabilizer to create yawing moments.",
+        "apply": "Observe that rudder-pedal movement produces the expected deflection during the walkaround.",
+        "image": null
+      },
+      {
+        "title": "Horizontal stabilizer",
+        "explain": "The horizontal tail surface helps provide longitudinal stability and supports pitch-control arrangements.",
+        "apply": "Learn whether your aircraft uses a separate elevator or a movable stabilator.",
+        "image": null
+      },
+      {
+        "title": "Elevator",
+        "explain": "The elevator pivots on a horizontal tail surface and changes aerodynamic forces to control pitch.",
+        "apply": "A backward yoke movement usually commands a nose-up pitching moment.",
+        "image": null
+      },
+      {
+        "title": "Trim tabs",
+        "explain": "Trim systems reduce the control force a pilot must maintain; small tabs or other mechanisms can change the neutral control force.",
+        "apply": "Trim relieves pressure—it does not replace attention to airspeed or aircraft attitude.",
+        "image": null
+      },
+      {
+        "title": "Stabilator",
+        "explain": "A stabilator combines horizontal stabilizer and elevator functions into a moving surface; some use an antiservo tab for appropriate control feel.",
+        "apply": "Do not mistake the entire moving horizontal tail of a stabilator airplane for a conventional fixed stabilizer.",
+        "image": {
+          "src": "assets/images/faa/figure-3-11.webp",
+          "caption": "FAA Pilot’s Handbook · Figure 3-11 — cropped from the original handbook",
+          "official": true
+        }
+      },
+      {
+        "title": "Antiservo tab",
+        "explain": "The antiservo tab in a stabilator system moves to increase stick-force feedback and can also provide trim, depending on installation.",
+        "apply": "Understand the correct control-system configuration for your specific model before flight.",
+        "image": null
+      }
+    ],
+    "check": {
+      "question": "A stabilator differs from a conventional elevator because…",
+      "options": [
+        "the whole horizontal tail surface pivots",
+        "it can only move the nose downward",
+        "it is another name for the rudder"
+      ],
+      "answer": 0,
+      "explanation": "A stabilator is an all-moving horizontal surface used for pitch control."
+    },
+    "cover": "assets/images/faa/figure-3-10.webp",
+    "section": 9
+  },
+  {
+    "id": 309,
+    "title": "Landing Gear and Ground Support",
+    "category": "FAA Chapter 3 • 3-7",
+    "pages": "3-7",
+    "concepts": [
+      {
+        "title": "Landing gear supports ground operations",
+        "explain": "Landing gear supports aircraft weight while parking, taxiing, taking off, and landing, and absorbs landing loads as designed.",
+        "apply": "Know the correct preflight inspection points for struts, tires, brakes, and attachments.",
+        "image": {
+          "src": "assets/images/faa/figure-3-12.webp",
+          "caption": "FAA Pilot’s Handbook · Figure 3-12 — cropped from the original handbook",
+          "official": true
+        }
+      },
+      {
+        "title": "Tricycle landing gear",
+        "explain": "A tricycle arrangement has main gear plus a nosewheel. Ground handling characteristics differ from tailwheel airplanes.",
+        "apply": "Identify what can steer the nosewheel and what role differential braking plays.",
+        "image": null
+      },
+      {
+        "title": "Conventional or tailwheel gear",
+        "explain": "Conventional gear has two main wheels and a wheel near the tail, giving a different ground-handling geometry.",
+        "apply": "Tailwheel airplanes may need specialized training and endorsement before serving as PIC where required.",
+        "image": null
+      },
+      {
+        "title": "Floats and skis",
+        "explain": "Airplanes can be equipped for water or snow operations; landing-surface compatibility shapes equipment and procedures.",
+        "apply": "A floatplane's landing gear may be floats rather than tires—operating technique is not interchangeable.",
+        "image": null
+      },
+      {
+        "title": "Fixed versus retractable gear",
+        "explain": "Some landing gear remains exposed; other designs retract gear for lower drag. Aircraft-specific procedures determine its operation.",
+        "apply": "A retractable gear design requires correct checks and speed-limit awareness.",
+        "image": null
+      }
+    ],
+    "check": null,
+    "cover": "assets/images/faa/figure-3-12.webp",
+    "section": 10
+  },
+  {
+    "id": 310,
+    "title": "Powerplant, Propeller, and Engine Systems",
+    "category": "FAA Chapter 3 • 3-7–3-8",
+    "pages": "3-7–3-8",
+    "concepts": [
+      {
+        "title": "Engine converts fuel energy into useful power",
+        "explain": "In a typical piston-engine airplane, the engine turns the propeller; actual installations differ by aircraft.",
+        "apply": "Check engine and propeller operation using the aircraft's procedures.",
+        "image": {
+          "src": "assets/images/faa/figure-3-13.webp",
+          "caption": "FAA Pilot’s Handbook · Figure 3-13 — cropped from the original handbook",
+          "official": true
+        }
+      },
+      {
+        "title": "Propeller blades create aerodynamic force",
+        "explain": "Rotating propeller blades act as airfoils, producing a component of aerodynamic force along the thrust direction.",
+        "apply": "Changing blade pitch can affect efficiency and engine load on equipped airplanes.",
+        "image": null
+      },
+      {
+        "title": "Blade twist",
+        "explain": "A propeller blade is typically twisted along its span because blade sections move at different rotational speeds. This helps maintain useful aerodynamic angles.",
+        "apply": "Notice how the blade geometry changes from hub to tip.",
+        "image": null
+      },
+      {
+        "title": "The cowling has functions beyond appearance",
+        "explain": "Engine cowling streamlines airflow and helps guide cooling air through the engine compartment.",
+        "apply": "Loose cowling fasteners or blocked cooling openings are meaningful inspection findings.",
+        "image": null
+      },
+      {
+        "title": "Powerplant may support other systems",
+        "explain": "Depending on aircraft design, the engine installation may drive electrical generation and other accessories.",
+        "apply": "Understand which electrical and instrument functions remain available during an engine or alternator problem.",
+        "image": null
+      },
+      {
+        "title": "Fuel and electrical systems are aircraft-specific",
+        "explain": "Chapter 3 introduces their basic roles; system layouts, emergency procedures, and limitations depend on the particular model.",
+        "apply": "Study the relevant POH before assuming a fuel selector or electrical bus works like another airplane's.",
+        "image": null
+      }
+    ],
+    "check": null,
+    "cover": "assets/images/faa/figure-3-13.webp",
+    "section": 11
+  },
+  {
+    "id": 311,
+    "title": "Aircraft Structures: Truss, Monocoque, Semimonocoque",
+    "category": "FAA Chapter 3 • 3-8–3-9",
+    "pages": "3-8–3-9",
+    "concepts": [
+      {
+        "title": "Truss-type structure",
+        "explain": "A truss fuselage uses a framework of members arranged to handle structural loads; coverings may help with streamlining rather than carrying the primary loads.",
+        "apply": "Early and specialty aircraft often show why a visible frame can be the main structure.",
+        "image": {
+          "src": "assets/images/faa/figure-3-5.webp",
+          "caption": "FAA Pilot’s Handbook · Figure 3-5 — cropped from the original handbook",
+          "official": true
+        }
+      },
+      {
+        "title": "Monocoque construction",
+        "explain": "In monocoque construction, the outer shell carries much of the structural load, supported by shaping components.",
+        "apply": "A crack in stressed skin can matter because the skin is part of the structure.",
+        "image": null
+      },
+      {
+        "title": "Semimonocoque construction",
+        "explain": "Semimonocoque construction combines stressed skin with stringers, formers, and bulkheads to distribute loads and improve strength.",
+        "apply": "This is common in modern metal aircraft fuselages.",
+        "image": {
+          "src": "assets/images/faa/figure-3-14.webp",
+          "caption": "FAA Pilot’s Handbook · Figure 3-14 — cropped from the original handbook",
+          "official": true
+        }
+      },
+      {
+        "title": "Bulkheads and formers",
+        "explain": "These transverse members help define shape and carry or distribute loads.",
+        "apply": "Locate the cabin and fuselage sections where substantial structure supports attachments.",
+        "image": null
+      },
+      {
+        "title": "Stringers and longerons",
+        "explain": "Longitudinal stiffeners improve the strength and stability of thin skin panels.",
+        "apply": "The FAA figure clarifies why skin and internal framing work as a system.",
+        "image": null
+      },
+      {
+        "title": "Firewall",
+        "explain": "A fire-resistant bulkhead separates the engine compartment from the cabin or cockpit in typical single-engine designs.",
+        "apply": "Inspect the firewall region for signs of damage or unauthorized openings during appropriate maintenance checks.",
+        "image": null
+      }
+    ],
+    "check": {
+      "question": "What defines semimonocoque construction?",
+      "options": [
+        "Only fabric stretched over a wing",
+        "Stressed skin reinforced by an internal framework",
+        "No structural skin at all"
+      ],
+      "answer": 1,
+      "explanation": "Semimonocoque combines load-carrying skin with internal reinforcement such as stringers and bulkheads."
+    },
+    "cover": "assets/images/faa/figure-3-5.webp",
+    "section": 12
+  },
+  {
+    "id": 312,
+    "title": "Composite Aircraft: What They Are",
+    "category": "FAA Chapter 3 • 3-9–3-10",
+    "pages": "3-9–3-10",
+    "concepts": [
+      {
+        "title": "A composite combines materials",
+        "explain": "A structural composite typically combines reinforcing fibers with a matrix material, allowing designers to tailor properties in different directions.",
+        "apply": "Composite construction is not the same as making an entire airplane from a single homogeneous plastic.",
+        "image": null
+      },
+      {
+        "title": "Fiberglass and carbon fiber",
+        "explain": "Fiberglass and carbon fiber are examples of reinforcing materials used in aircraft composites, with differing strength, weight, and conductivity properties.",
+        "apply": "Recognize that external appearance alone may not reveal the exact reinforcement used.",
+        "image": null
+      },
+      {
+        "title": "The role of the matrix",
+        "explain": "Resin or another matrix holds fibers together and transfers loads between them. Construction technique and curing quality matter.",
+        "apply": "Structural integrity depends on the system, not merely which fabric was selected.",
+        "image": null
+      },
+      {
+        "title": "Strength-to-weight benefit",
+        "explain": "Properly designed composites can provide high strength with relatively low mass and allow complex aerodynamic shapes.",
+        "apply": "More efficient structural weight can support the aircraft's performance goals.",
+        "image": null
+      },
+      {
+        "title": "Reduced corrosion potential",
+        "explain": "Composites avoid some metal-corrosion mechanisms but introduce different inspection, maintenance, and environmental considerations.",
+        "apply": "Never interpret “corrosion resistant” as “maintenance free.”",
+        "image": null
+      },
+      {
+        "title": "Composite construction has a long history",
+        "explain": "The handbook traces aerospace composite use from earlier fiberglass developments to modern general aviation, helicopters, and transport airplanes.",
+        "apply": "Comparing different aircraft demonstrates that composite materials are not limited to experimental aircraft.",
+        "image": {
+          "src": "assets/images/faa/figure-3-15.webp",
+          "caption": "FAA Pilot’s Handbook · Figure 3-15 — cropped from the original handbook",
+          "official": true
+        }
+      }
+    ],
+    "check": null,
+    "cover": "assets/images/faa/figure-3-15.webp",
+    "section": 13
+  },
+  {
+    "id": 313,
+    "title": "Composite Damage and Repair Concerns",
+    "category": "FAA Chapter 3 • 3-10–3-12",
+    "pages": "3-10–3-12",
+    "concepts": [
+      {
+        "title": "Hidden damage is a central concern",
+        "explain": "A composite part can sustain internal delamination or fiber damage even when external marks seem minor.",
+        "apply": "After a strike or impact, do not dismiss a small dent based only on visible appearance.",
+        "image": null
+      },
+      {
+        "title": "Impact energy changes the damage pattern",
+        "explain": "The handbook's diagrams show how different impact energies can produce different internal fracture patterns and externally visible clues.",
+        "apply": "Damage depth and area may differ from what a quick surface check suggests.",
+        "image": {
+          "src": "assets/images/faa/figure-3-16.webp",
+          "caption": "FAA Pilot’s Handbook · Figure 3-16 — cropped from the original handbook",
+          "official": true
+        }
+      },
+      {
+        "title": "Delamination weakens the load path",
+        "explain": "Layers can separate internally; this can significantly alter a component's capacity to carry designed loads.",
+        "apply": "Special inspection methods may be needed after an impact.",
+        "image": null
+      },
+      {
+        "title": "Not all composites conduct electricity like metal",
+        "explain": "Fiberglass is an electrical insulator; carbon fiber conducts but not in the same way as aluminum. Aircraft may need conductive mesh for lightning protection.",
+        "apply": "Repairs can involve restoring lightning protection as well as structural strength.",
+        "image": {
+          "src": "assets/images/faa/figure-3-17.webp",
+          "caption": "FAA Pilot’s Handbook · Figure 3-17 — cropped from the original handbook",
+          "official": true
+        }
+      },
+      {
+        "title": "Temperature and moisture may matter",
+        "explain": "Composite properties and repair processes depend on their materials and manufacturing methods.",
+        "apply": "Approved repair instructions govern materials, preparation, layup, and curing.",
+        "image": null
+      },
+      {
+        "title": "Repairs require appropriate methods",
+        "explain": "Composite damage cannot simply be treated like a cosmetic scratch or repaired using unapproved filler.",
+        "apply": "Follow type-specific maintenance data and qualified personnel decisions.",
+        "image": null
+      }
+    ],
+    "check": {
+      "question": "A composite wing is struck, but only a small surface mark is visible. What is the concern?",
+      "options": [
+        "Internal damage may extend beyond what is visible",
+        "Composites cannot be damaged by impacts",
+        "No inspection could ever detect a problem"
+      ],
+      "answer": 0,
+      "explanation": "Composite structures can sustain subsurface damage or delamination despite a small visible mark."
+    },
+    "cover": "assets/images/faa/figure-3-16.webp",
+    "section": 14
+  },
+  {
+    "id": 314,
+    "title": "Understanding Aircraft Flight Instruments",
+    "category": "FAA Chapter 3 • 3-12–3-13",
+    "pages": "3-12–3-13",
+    "concepts": [
+      {
+        "title": "Analog instrument presentation",
+        "explain": "Conventional instrument panels use individual gauges to display flight and engine information. They may rely on different sources and systems.",
+        "apply": "Recognize the purpose of each instrument rather than memorizing its location alone.",
+        "image": {
+          "src": "assets/images/faa/figure-3-18.webp",
+          "caption": "FAA Pilot’s Handbook · Figure 3-18 — cropped from the original handbook",
+          "official": true
+        }
+      },
+      {
+        "title": "Digital glass cockpit",
+        "explain": "Electronic displays integrate flight, engine, and navigation data into configurable presentations; a single display can combine multiple functions.",
+        "apply": "The same underlying flight parameter may appear as a tape, number, map, or symbolic representation.",
+        "image": null
+      },
+      {
+        "title": "Three functional groups",
+        "explain": "Chapter 3 organizes the displayed information into performance, control, and navigation instruments; an aircraft may integrate information from several groups on one screen.",
+        "apply": "Ask what information you need rather than assuming a glass cockpit means a different flying goal.",
+        "image": null
+      },
+      {
+        "title": "Cross-check is still required",
+        "explain": "Regardless of display type, instruments can fail, be misread, or provide unexpected information. A disciplined scan connects indications with aircraft behavior.",
+        "apply": "Compare attitude, performance, and external references as conditions permit.",
+        "image": null
+      },
+      {
+        "title": "The installed system matters",
+        "explain": "The chapter compares examples but does not define every avionics suite. Specific controls, limitations, and abnormal procedures are aircraft dependent.",
+        "apply": "Study the aircraft and avionics flight manuals before relying on any advanced display.",
+        "image": null
+      }
+    ],
+    "check": {
+      "question": "Which statement about a glass cockpit is best?",
+      "options": [
+        "It changes the laws of flight",
+        "It integrates and presents information electronically",
+        "It eliminates the need for instrument interpretation"
+      ],
+      "answer": 1,
+      "explanation": "Digital displays change presentation and integration, not the physics or need for pilot interpretation."
+    },
+    "cover": "assets/images/faa/figure-3-18.webp",
+    "section": 15
+  },
+  {
+    "id": 315,
+    "title": "Performance Instruments: What the Airplane Is Doing",
+    "category": "FAA Chapter 3 • 3-13–3-14",
+    "pages": "3-13–3-14",
+    "concepts": [
+      {
+        "title": "Airspeed",
+        "explain": "An airspeed indication provides speed-related information needed for aircraft control and operating limits.",
+        "apply": "Respect the airplane's applicable speeds and instrument limitations in the POH/AFM.",
+        "image": {
+          "src": "assets/images/faa/figure-3-19.webp",
+          "caption": "FAA Pilot’s Handbook · Figure 3-19 — cropped from the original handbook",
+          "official": true
+        }
+      },
+      {
+        "title": "Altitude",
+        "explain": "The altimeter indicates altitude based on pressure measurements and proper setting; pilots must interpret it in context.",
+        "apply": "An incorrect altimeter setting can lead to an incorrect altitude indication.",
+        "image": null
+      },
+      {
+        "title": "Vertical speed",
+        "explain": "The vertical speed indicator reports rate of climb or descent, subject to instrument response characteristics.",
+        "apply": "A stable indicated descent rate can help with approach energy management.",
+        "image": null
+      },
+      {
+        "title": "Heading and turn performance",
+        "explain": "Heading and turn-related indications help show where the airplane is pointed and how its direction changes.",
+        "apply": "Cross-check the relevant indications with the intended flight path.",
+        "image": null
+      },
+      {
+        "title": "Performance trends",
+        "explain": "Digital and analog displays can show trends as well as instantaneous values; a trend cue is not a guarantee of what happens next.",
+        "apply": "In rapidly changing conditions, remain ahead of the indications instead of chasing them.",
+        "image": null
+      },
+      {
+        "title": "Recognize grouped displays",
+        "explain": "The FAA performance-instrument figure highlights where similar indications appear on traditional panels and electronic flight displays.",
+        "apply": "Identify corresponding information on your specific trainer.",
+        "image": null
+      }
+    ],
+    "check": null,
+    "cover": "assets/images/faa/figure-3-19.webp",
+    "section": 16
+  },
+  {
+    "id": 316,
+    "title": "Control Instruments: Attitude and Power",
+    "category": "FAA Chapter 3 • 3-13–3-15",
+    "pages": "3-13–3-15",
+    "concepts": [
+      {
+        "title": "Attitude indicator",
+        "explain": "The attitude indicator displays aircraft pitch and bank attitude relative to a reference, directly supporting precise control.",
+        "apply": "An indicated nose-up attitude does not by itself tell you the airplane is climbing.",
+        "image": {
+          "src": "assets/images/faa/figure-3-20.webp",
+          "caption": "FAA Pilot’s Handbook · Figure 3-20 — cropped from the original handbook",
+          "official": true
+        }
+      },
+      {
+        "title": "Power instruments",
+        "explain": "Engine tachometer and manifold-pressure displays, where installed, tell the pilot how the engine is being commanded or performing.",
+        "apply": "Selecting a familiar power setting helps create repeatable flight configurations.",
+        "image": null
+      },
+      {
+        "title": "Control versus performance",
+        "explain": "Control instruments help show the immediate control inputs and attitude/power configuration; performance instruments show the resulting speed, altitude, or vertical-speed response.",
+        "apply": "Set attitude and power, then cross-check whether the desired performance develops.",
+        "image": null
+      },
+      {
+        "title": "Small adjustments",
+        "explain": "Precise flying often requires measured changes followed by time for the aircraft and instruments to settle.",
+        "apply": "Avoid making a series of large pitch corrections before checking how airspeed and vertical speed respond.",
+        "image": null
+      },
+      {
+        "title": "Analog and glass representations",
+        "explain": "A digital display can place pitch, bank, engine, and status data on different screens or within one integrated presentation.",
+        "apply": "Learn where to find the same essential parameters if a display changes modes.",
+        "image": null
+      }
+    ],
+    "check": {
+      "question": "A pilot raises the nose and immediately sees pitch change. Which other information confirms the aircraft’s actual climb or descent?",
+      "options": [
+        "Performance indications such as vertical speed and altitude trend",
+        "Only the radio frequency",
+        "Only the heading bug"
+      ],
+      "answer": 0,
+      "explanation": "Attitude is a control indication; performance is checked through altitude, vertical speed, and related indications."
+    },
+    "cover": "assets/images/faa/figure-3-20.webp",
+    "section": 17
+  },
+  {
+    "id": 317,
+    "title": "Navigation Displays and Course Guidance",
+    "category": "FAA Chapter 3 • 3-13–3-16",
+    "pages": "3-13–3-16",
+    "concepts": [
+      {
+        "title": "Navigation instruments answer where to go",
+        "explain": "Navigation information shows the aircraft's relationship to a route, a selected station, a fix, or a desired course.",
+        "apply": "A correct heading alone does not guarantee tracking a desired course in wind.",
+        "image": {
+          "src": "assets/images/faa/figure-3-21.webp",
+          "caption": "FAA Pilot’s Handbook · Figure 3-21 — cropped from the original handbook",
+          "official": true
+        }
+      },
+      {
+        "title": "Course deviation",
+        "explain": "Course deviation indicators show whether the aircraft is left or right of a selected navigation course, with meaning that depends on the system.",
+        "apply": "Interpret the instrument as a guidance cue rather than a direct rudder command.",
+        "image": null
+      },
+      {
+        "title": "VOR and other ground-based sources",
+        "explain": "Traditional systems present bearing or course relationships to ground-based radio facilities; pilots need to know their operating principles and limitations.",
+        "apply": "A navigation receiver indication must be interpreted with the proper frequency, course, and validity checks.",
+        "image": null
+      },
+      {
+        "title": "GPS and integrated navigation",
+        "explain": "Satellite-based navigation systems can provide route and position information, often integrated into a moving map or primary display.",
+        "apply": "Verify the active waypoint and course rather than following an old flight plan blindly.",
+        "image": null
+      },
+      {
+        "title": "Glideslope information",
+        "explain": "Appropriate approach equipment can present vertical guidance relative to an approach path; the FAA example compares analog and digital depictions.",
+        "apply": "Glideslope position has a specific meaning and must be interpreted with the relevant approach procedure.",
+        "image": {
+          "src": "assets/images/faa/figure-3-22.webp",
+          "caption": "FAA Pilot’s Handbook · Figure 3-22 — cropped from the original handbook",
+          "official": true
+        }
+      },
+      {
+        "title": "Navigation data must be verified",
+        "explain": "An appealing display does not replace selection, monitoring, or cross-check of the actual navigation source and flight plan.",
+        "apply": "Confirm the correct CDI source after changing navigation modes.",
+        "image": null
+      }
+    ],
+    "check": {
+      "question": "What does a course deviation indicator primarily help you assess?",
+      "options": [
+        "Fuel quantity",
+        "Position relative to a selected navigation course",
+        "Engine oil temperature"
+      ],
+      "answer": 1,
+      "explanation": "CDI information reflects the aircraft’s relationship to selected course guidance."
+    },
+    "cover": "assets/images/faa/figure-3-21.webp",
+    "section": 18
+  }
+]
