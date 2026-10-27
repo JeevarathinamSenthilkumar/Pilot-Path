@@ -20,3 +20,11 @@
 - Referenced chapter illustrations were checked against package paths; no missing paths found.
 - ZIP integrity passed.
 - Automated Chromium navigation was attempted but blocked by environment restrictions (`ERR_BLOCKED_BY_ADMINISTRATOR`) for both file URLs and localhost. Live browser and physical iPhone Safari behavior remain unverified.
+
+
+## v6 bottom-navigation adjustment
+- Removed floating Pilot Path · Knowledge Academy from home screen.
+- Chapter tab navigation is edge-attached on iPhone (Home, Learn, Exams, Progress).
+- Safe area padding added for iPhone Home indicator and status area.
+- Updated CSS references and service-worker cache version.
+- No chapter lesson or exam data modified.

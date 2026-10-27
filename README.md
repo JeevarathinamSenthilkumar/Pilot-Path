@@ -11,3 +11,7 @@ Download ZIP, extract, open index.html on Windows, or upload the unzipped root t
 - Existing localStorage progress keys are unchanged. Upload to the SAME GitHub Pages repo URL to retain progress.
 
 Note: First-time offline use of individual chapters requires opening those chapters online first; this slim version does not pre-download every chapter automatically.
+
+
+## v6 navigation improvement
+The obsolete floating “Pilot Path · Knowledge Academy” footer has been removed from the landing page. Every chapter now docks the Home / Learn / Exams / Progress navigation to the very bottom edge of the screen, with padding for the iPhone Home indicator. The CSS is shared across all 17 chapters. Your local progress keys and lessons are unchanged.
