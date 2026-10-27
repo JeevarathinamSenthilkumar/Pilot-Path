@@ -1,1 +1,0 @@
-const C='pilotpath-ch6-20261026';self.addEventListener('install',e=>{self.skipWaiting();});self.addEventListener('activate',e=>{e.waitUntil(self.clients.claim());});

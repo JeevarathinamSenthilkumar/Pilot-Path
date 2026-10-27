@@ -1,0 +1,14 @@
+
+/* iPhone status bar and Home Screen safe-area fix */
+html{scroll-padding-top:110px;-webkit-text-size-adjust:100%}
+body{overflow-x:hidden}
+.course-switch{position:relative!important;top:auto!important;z-index:20!important;max-width:540px!important;width:100%!important;margin:0 auto!important;padding:max(66px,calc(env(safe-area-inset-top,0px) + 18px)) 16px 12px!important;min-height:unset!important;display:flex!important;align-items:flex-end!important;justify-content:space-between!important;gap:10px!important;background:#08111f!important;backdrop-filter:none!important;-webkit-backdrop-filter:none!important;box-sizing:border-box!important}
+.course-switch a{display:inline-flex!important;align-items:center!important;justify-content:center!important;min-height:46px!important;padding:10px 15px!important;border:1px solid #5587b0!important;border-radius:15px!important;background:#193c5e!important;color:#e8f6ff!important;font-weight:700!important;font-size:14px!important;white-space:nowrap!important;text-decoration:none!important}
+.course-switch span{align-self:center!important;min-width:0!important;font-weight:700!important;letter-spacing:.07em!important;font-size:10px!important;color:#a3c3dc!important;text-align:right!important}
+#app{padding-top:10px!important}
+/* Remove repeated brand header. The icon lives on the All Chapters landing page and Home Screen. */
+#app .top{display:none!important}
+/* Bottom tab bar above iPhone home indicator. */
+nav.bottom, .bottom-nav, .tabs, .tabbar, .bottom{bottom:max(16px,env(safe-area-inset-bottom,0px))!important}
+#app{padding-bottom:calc(116px + env(safe-area-inset-bottom,0px))!important}
+@media(max-width:350px){.course-switch{padding-left:12px!important;padding-right:12px!important}.course-switch a{padding-left:11px!important;padding-right:11px!important}.course-switch span{font-size:9px!important}}
