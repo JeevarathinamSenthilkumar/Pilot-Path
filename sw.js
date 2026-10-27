@@ -1,4 +1,4 @@
-const CACHE='pilotpath-academy-offline-v6';
-self.addEventListener('install',e=>e.waitUntil((async()=>{let c=await caches.open(CACHE);await c.addAll(['./','./index.html','./manifest.webmanifest','./shared/chapter.css','./shared/chapter-mobile.css','./assets/icon-192.png']);await self.skipWaiting()})()));
+const CACHE='pilotpath-academy-offline-v9';
+self.addEventListener('install',e=>e.waitUntil((async()=>{let c=await caches.open(CACHE);await c.addAll(['./','./index.html','./shared/redesign-home.css','./manifest.webmanifest','./shared/chapter.css','./shared/chapter-mobile.css','./assets/icon-192.png']);await self.skipWaiting()})()));
 self.addEventListener('activate',e=>e.waitUntil((async()=>{for(const k of await caches.keys())if(k.startsWith('pilotpath-academy-offline-')&&k!==CACHE)await caches.delete(k);await self.clients.claim()})()));
 self.addEventListener('fetch',e=>{if(e.request.method!=='GET'||new URL(e.request.url).origin!==self.location.origin)return;e.respondWith((async()=>{const c=await caches.open(CACHE);const cached=await c.match(e.request);try{const r=await fetch(e.request);if(r.ok)c.put(e.request,r.clone()).catch(()=>{});return r}catch(err){return cached||(e.request.mode==='navigate'?await c.match('./index.html'):Response.error())}})())});

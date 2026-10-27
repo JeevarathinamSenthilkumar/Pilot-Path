@@ -1,17 +1,18 @@
-# Pilot Path — iPhone navigation fixed + shared files
+# Pilot Path — Dark Focused Learning Redesign
 
-Download ZIP, extract, open index.html on Windows, or upload the unzipped root to GitHub Pages.
+The approved clean dark template is applied to the combined 17-chapter website.
 
-## Fixes
-- All chapters back button is below the iPhone status bar.
-- Removed repeated chapter header logo; logo is retained on landing page and Home Screen.
-- All chapters share one `shared/chapter.css` and one `shared/chapter-mobile.css`.
-- Removed duplicate chapter icons, service workers, manifests, redundant JSON copies (lesson data remain in JS), and deployment-unnecessary documentation.
-- The root service worker updates to version 4; visited chapters and their assets are cached for subsequent offline use after first successful load.
-- Existing localStorage progress keys are unchanged. Upload to the SAME GitHub Pages repo URL to retain progress.
+## Open on your computer
+Extract everything and double-click index.html.
 
-Note: First-time offline use of individual chapters requires opening those chapters online first; this slim version does not pre-download every chapter automatically.
+## Publish updates
+Copy the entire extracted folder contents into your existing GitHub Desktop repository (keep the .git folder), commit, and push.
 
+## Preserved
+All chapter lessons, curriculum data, FAA figures, per-chapter exams, progress storage keys, and the existing icon.
 
-## v6 navigation improvement
-The obsolete floating “Pilot Path · Knowledge Academy” footer has been removed from the landing page. Every chapter now docks the Home / Learn / Exams / Progress navigation to the very bottom edge of the screen, with padding for the iPhone Home indicator. The CSS is shared across all 17 chapters. Your local progress keys and lessons are unchanged.
+## New design
+Compact home overview, focus-first chapters, a simplified chapter lesson list, more restrained content cards, docked 4-tab navigation, safe-area-aware layouts. The home quick Exams shortcut takes you to the list of chapters so you can select a chapter examination. No new central mock exam has been added.
+
+## Testing
+JavaScript syntax and zip integrity checked. Headless browser interaction test was blocked by the environment; verify the layout in iPhone Safari after publishing. Progress is stored in the browser and does not automatically sync between devices.
